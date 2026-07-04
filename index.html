@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Hana English</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-shell">
+<header class="app-header">
+    <div>
+        <p class="eyebrow">高校英単語</p>
+        <h1>Hana English</h1>
+    </div>
+    <button class="small-button" type="button" onclick="showScreen('listScreen')">一覧</button>
+</header>
+
+<main>
+    <section id="homeScreen" class="screen active-screen">
+        <div id="loadNotice" class="notice" hidden>
+            <p>words.json を読み込めませんでした。同じフォルダの words.json を選んでください。</p>
+            <input id="jsonFileInput" type="file" accept=".json,application/json">
+        </div>
+
+        <section class="summary-panel">
+            <div>
+                <span class="summary-label">総問題数</span>
+                <strong id="totalCount">0</strong>
+            </div>
+            <div>
+                <span class="summary-label">取り組み済み</span>
+                <strong id="attemptedCount">0</strong>
+            </div>
+            <div>
+                <span class="summary-label">未実施</span>
+                <strong id="unattemptedCount">0</strong>
+            </div>
+            <div>
+                <span class="summary-label">よく間違える</span>
+                <strong id="weakCount">0</strong>
+            </div>
+            <div class="wide-stat">
+                <span class="summary-label">正答率</span>
+                <strong id="accuracyRate">0%</strong>
+            </div>
+        </section>
+
+        <section class="daily-panel">
+            <h2>今日の10問</h2>
+            <p>全体からランダムに10問出します。迷ったらここから始めましょう。</p>
+            <button type="button" onclick="quickStart()">今日の問題を始める</button>
+        </section>
+
+        <div class="home-actions">
+            <button type="button" onclick="showScreen('modeScreen')">モードを選ぶ</button>
+            <button class="secondary-button" type="button" onclick="showScreen('listScreen')">単語一覧を見る</button>
+        </div>
+    </section>
+
+    <section id="modeScreen" class="screen">
+        <div class="section-title-row">
+            <button class="ghost-button" type="button" onclick="showScreen('homeScreen')">戻る</button>
+            <h2>モード選択</h2>
+        </div>
+
+        <label class="field-label">出題範囲</label>
+        <div class="mode-grid" id="modeButtons">
+            <button type="button" data-mode="all">全体ランダム</button>
+            <button type="button" data-mode="part">品詞別</button>
+            <button type="button" data-mode="range">番号範囲</button>
+            <button type="button" data-mode="wrong">よく間違えた</button>
+            <button type="button" data-mode="unattempted">未実施</button>
+        </div>
+
+        <div id="partOptions" class="option-panel" hidden>
+            <label class="field-label" for="partSelect">品詞</label>
+            <select id="partSelect"></select>
+        </div>
+
+        <div id="rangeOptions" class="option-panel" hidden>
+            <label class="field-label">番号範囲</label>
+            <div class="range-row">
+                <input id="startNumber" type="number" min="1" inputmode="numeric" placeholder="開始">
+                <span>〜</span>
+                <input id="endNumber" type="number" min="1" inputmode="numeric" placeholder="終了">
+            </div>
+        </div>
+
+        <label class="field-label" for="questionType">問題形式</label>
+        <select id="questionType">
+            <option value="choice">4択問題</option>
+            <option value="spelling">単語訳からスペルを書く</option>
+        </select>
+
+        <button class="bottom-main-button" type="button" onclick="startQuizFromSettings()">この条件で始める</button>
+        <p id="modeMessage" class="message" aria-live="polite"></p>
+    </section>
+
+    <section id="quizScreen" class="screen quiz-screen">
+        <div class="quiz-topbar">
+            <button class="ghost-button" type="button" onclick="confirmExitQuiz()">終了</button>
+            <div id="quizProgress" class="quiz-progress">1 / 10</div>
+        </div>
+
+        <article class="question-card">
+            <p id="questionKind" class="question-kind">4択問題</p>
+            <h2 id="questionText">word</h2>
+            <button class="sound-button" type="button" onclick="speakCurrentWord()">発音</button>
+        </article>
+
+        <div id="choiceArea" class="choice-area"></div>
+
+        <div id="textAnswerArea" class="answer-area" hidden>
+            <input id="answerInput" type="text" autocomplete="off" autocapitalize="none" placeholder="英単語のスペルを入力">
+            <button type="button" onclick="submitTextAnswer()">答える</button>
+        </div>
+
+        <section id="feedbackPanel" class="feedback-panel" hidden>
+            <p id="feedbackTitle" class="feedback-title"></p>
+            <dl class="answer-detail">
+                <dt>単語</dt><dd id="feedbackWord"></dd>
+                <dt>意味</dt><dd id="feedbackMeaning"></dd>
+                <dt>品詞</dt><dd id="feedbackPart"></dd>
+            </dl>
+            <div class="example-card">
+                <p id="feedbackExample"></p>
+                <p id="feedbackExampleJa"></p>
+            </div>
+            <button type="button" onclick="goNextQuestion()">次の問題へ</button>
+        </section>
+    </section>
+
+    <section id="resultScreen" class="screen">
+        <div class="result-card">
+            <p class="eyebrow">結果</p>
+            <h2 id="resultRate">0%</h2>
+            <div class="result-stats">
+                <div><span>出題数</span><strong id="resultTotal">0</strong></div>
+                <div><span>正解</span><strong id="resultCorrect">0</strong></div>
+                <div><span>不正解</span><strong id="resultWrong">0</strong></div>
+            </div>
+        </div>
+        <section>
+            <h3>間違えた単語</h3>
+            <div id="wrongList" class="wrong-list"></div>
+        </section>
+        <button type="button" onclick="retryQuiz()">もう一度同じ条件で挑戦</button>
+        <button class="secondary-button" type="button" onclick="showScreen('homeScreen')">ホームに戻る</button>
+    </section>
+
+    <section id="listScreen" class="screen">
+        <div class="section-title-row">
+            <button class="ghost-button" type="button" onclick="showScreen('homeScreen')">戻る</button>
+            <h2>単語一覧</h2>
+        </div>
+        <label class="field-label" for="listPartFilter">品詞で絞り込み</label>
+        <select id="listPartFilter"></select>
+        <div class="toggle-row">
+            <label><input id="onlyUnattempted" type="checkbox"> 未実施だけ</label>
+            <label><input id="onlyWeak" type="checkbox"> よく間違える</label>
+        </div>
+        <div id="wordList" class="word-list"></div>
+    </section>
+</main>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

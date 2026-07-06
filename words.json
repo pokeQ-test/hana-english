@@ -25,6 +25,18 @@
     },
     {
         "id":  3,
+        "word":  "appear",
+        "meaning":  "に出演する、に現れるシュツエンアラワ",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "1",
+        "example":  "The president appeared on television many times before the election.",
+        "exampleJa":  "大統領は選挙の前に何度もテレビに出演した。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  4,
         "word":  "cause",
         "meaning":  "を引き起こす、の原因になるヒオゲンイン",
         "partOfSpeech":  "動詞ドウシ",
@@ -36,7 +48,7 @@
         "wrongCount":  0
     },
     {
-        "id":  4,
+        "id":  5,
         "word":  "check",
         "meaning":  "をチェックする、を調べるシラ",
         "partOfSpeech":  "動詞ドウシ",
@@ -48,7 +60,7 @@
         "wrongCount":  0
     },
     {
-        "id":  5,
+        "id":  6,
         "word":  "climb",
         "meaning":  "を登る[上る]ノボノボ",
         "partOfSpeech":  "動詞ドウシ",
@@ -60,7 +72,7 @@
         "wrongCount":  0
     },
     {
-        "id":  6,
+        "id":  7,
         "word":  "communicate",
         "meaning":  "理解しあう、伝達するリカイデンタツ",
         "partOfSpeech":  "動詞ドウシ",
@@ -72,7 +84,7 @@
         "wrongCount":  0
     },
     {
-        "id":  7,
+        "id":  8,
         "word":  "continue",
         "meaning":  "を続けるツヅ",
         "partOfSpeech":  "動詞ドウシ",
@@ -84,7 +96,7 @@
         "wrongCount":  0
     },
     {
-        "id":  8,
+        "id":  9,
         "word":  "create",
         "meaning":  "を作り出す、を創造するツクダソウゾウ",
         "partOfSpeech":  "動詞ドウシ",
@@ -96,7 +108,7 @@
         "wrongCount":  0
     },
     {
-        "id":  9,
+        "id":  10,
         "word":  "decrease",
         "meaning":  "を減らす、を減少させるヘゲンショウ",
         "partOfSpeech":  "動詞ドウシ",
@@ -108,7 +120,7 @@
         "wrongCount":  0
     },
     {
-        "id":  10,
+        "id":  11,
         "word":  "destroy",
         "meaning":  "を破壊する、を打ち壊すハカイウコワ",
         "partOfSpeech":  "動詞ドウシ",
@@ -120,7 +132,7 @@
         "wrongCount":  0
     },
     {
-        "id":  11,
+        "id":  12,
         "word":  "develop",
         "meaning":  "を開発する、を発展させるカイハツハッテン",
         "partOfSpeech":  "動詞ドウシ",
@@ -132,7 +144,7 @@
         "wrongCount":  0
     },
     {
-        "id":  12,
+        "id":  13,
         "word":  "disappear",
         "meaning":  "消える、消滅するキショウメツ",
         "partOfSpeech":  "動詞ドウシ",
@@ -144,7 +156,7 @@
         "wrongCount":  0
     },
     {
-        "id":  13,
+        "id":  14,
         "word":  "discover",
         "meaning":  "を見つける、を発見するミハッケン",
         "partOfSpeech":  "動詞ドウシ",
@@ -156,7 +168,7 @@
         "wrongCount":  0
     },
     {
-        "id":  14,
+        "id":  15,
         "word":  "draw",
         "meaning":  "を引く、引き付けるヒヒツ",
         "partOfSpeech":  "動詞ドウシ",
@@ -168,7 +180,7 @@
         "wrongCount":  0
     },
     {
-        "id":  15,
+        "id":  16,
         "word":  "enter",
         "meaning":  "に入るハイ",
         "partOfSpeech":  "動詞ドウシ",
@@ -180,7 +192,7 @@
         "wrongCount":  0
     },
     {
-        "id":  16,
+        "id":  17,
         "word":  "escape",
         "meaning":  "(から)脱走する、(から)逃げる(from)ダッソウニ",
         "partOfSpeech":  "動詞ドウシ",
@@ -192,7 +204,7 @@
         "wrongCount":  0
     },
     {
-        "id":  17,
+        "id":  18,
         "word":  "explain",
         "meaning":  "を説明するセツメイ",
         "partOfSpeech":  "動詞ドウシ",
@@ -204,7 +216,7 @@
         "wrongCount":  0
     },
     {
-        "id":  18,
+        "id":  19,
         "word":  "fight",
         "meaning":  "(戦い)をする、と戦うタタカタタカ",
         "partOfSpeech":  "動詞ドウシ",
@@ -216,7 +228,7 @@
         "wrongCount":  0
     },
     {
-        "id":  19,
+        "id":  20,
         "word":  "fill",
         "meaning":  "をいっぱいにする",
         "partOfSpeech":  "動詞ドウシ",
@@ -228,7 +240,7 @@
         "wrongCount":  0
     },
     {
-        "id":  20,
+        "id":  21,
         "word":  "forget",
         "meaning":  "を忘れる、を思い出させないワスオモダ",
         "partOfSpeech":  "動詞ドウシ",
@@ -240,7 +252,7 @@
         "wrongCount":  0
     },
     {
-        "id":  21,
+        "id":  22,
         "word":  "guess",
         "meaning":  "を推測する、を言い当てるスイソクイア",
         "partOfSpeech":  "動詞ドウシ",
@@ -252,7 +264,7 @@
         "wrongCount":  0
     },
     {
-        "id":  22,
+        "id":  23,
         "word":  "hide",
         "meaning":  "を隠す、を秘密にするカクヒミツ",
         "partOfSpeech":  "動詞ドウシ",
@@ -264,7 +276,7 @@
         "wrongCount":  0
     },
     {
-        "id":  23,
+        "id":  24,
         "word":  "imagine",
         "meaning":  "を想像する、を心に描くソウゾウココロカ",
         "partOfSpeech":  "動詞ドウシ",
@@ -276,7 +288,7 @@
         "wrongCount":  0
     },
     {
-        "id":  24,
+        "id":  25,
         "word":  "improve",
         "meaning":  "を改善する、を向上させるカイゼンコウジョウ",
         "partOfSpeech":  "動詞ドウシ",
@@ -288,7 +300,7 @@
         "wrongCount":  0
     },
     {
-        "id":  25,
+        "id":  26,
         "word":  "increase",
         "meaning":  "を伸ばす、を増加するノゾウカ",
         "partOfSpeech":  "動詞ドウシ",
@@ -300,7 +312,7 @@
         "wrongCount":  0
     },
     {
-        "id":  26,
+        "id":  27,
         "word":  "kill",
         "meaning":  "を殺す、を死亡させるコロシボウ",
         "partOfSpeech":  "動詞ドウシ",
@@ -312,7 +324,7 @@
         "wrongCount":  0
     },
     {
-        "id":  27,
+        "id":  28,
         "word":  "last",
         "meaning":  "続く、持続するツヅジゾク",
         "partOfSpeech":  "動詞ドウシ",
@@ -324,7 +336,7 @@
         "wrongCount":  0
     },
     {
-        "id":  28,
+        "id":  29,
         "word":  "laugh",
         "meaning":  "(声を出して～を)笑う(at)コエダワラ",
         "partOfSpeech":  "動詞ドウシ",
@@ -336,7 +348,7 @@
         "wrongCount":  0
     },
     {
-        "id":  29,
+        "id":  30,
         "word":  "lie",
         "meaning":  "位置する、横たわっているイチヨコ",
         "partOfSpeech":  "動詞ドウシ",
@@ -348,7 +360,7 @@
         "wrongCount":  0
     },
     {
-        "id":  30,
+        "id":  31,
         "word":  "lift",
         "meaning":  "(を)持ち上げるモア",
         "partOfSpeech":  "動詞ドウシ",
@@ -360,7 +372,7 @@
         "wrongCount":  0
     },
     {
-        "id":  31,
+        "id":  32,
         "word":  "occur",
         "meaning":  "(～の心に)浮かぶ(to)；起こるココロウオ",
         "partOfSpeech":  "動詞ドウシ",
@@ -372,7 +384,7 @@
         "wrongCount":  0
     },
     {
-        "id":  32,
+        "id":  33,
         "word":  "paint",
         "meaning":  "を絵の具で描くエグカ",
         "partOfSpeech":  "動詞ドウシ",
@@ -384,7 +396,7 @@
         "wrongCount":  0
     },
     {
-        "id":  33,
+        "id":  34,
         "word":  "pay",
         "meaning":  "を支払う；(～の)代金を払う(for)シハラダイキンハラ",
         "partOfSpeech":  "動詞ドウシ",
@@ -396,7 +408,7 @@
         "wrongCount":  0
     },
     {
-        "id":  34,
+        "id":  35,
         "word":  "pinch",
         "meaning":  "(を)つまむ；(を)ついばむ",
         "partOfSpeech":  "動詞ドウシ",
@@ -408,7 +420,7 @@
         "wrongCount":  0
     },
     {
-        "id":  35,
+        "id":  36,
         "word":  "produce",
         "meaning":  "を生ずる、を製造するセイセイゾウ",
         "partOfSpeech":  "動詞ドウシ",
@@ -420,7 +432,7 @@
         "wrongCount":  0
     },
     {
-        "id":  36,
+        "id":  37,
         "word":  "pull",
         "meaning":  "を引っ張る、を引くヒパヒ",
         "partOfSpeech":  "動詞ドウシ",
@@ -432,7 +444,7 @@
         "wrongCount":  0
     },
     {
-        "id":  37,
+        "id":  38,
         "word":  "raise",
         "meaning":  "を上げる、(価格)を引き上げるアカカクヒア",
         "partOfSpeech":  "動詞ドウシ",
@@ -444,7 +456,7 @@
         "wrongCount":  0
     },
     {
-        "id":  38,
+        "id":  39,
         "word":  "reach",
         "meaning":  "(目的地・場所)に着くモクテキチバショツ",
         "partOfSpeech":  "動詞ドウシ",
@@ -456,7 +468,7 @@
         "wrongCount":  0
     },
     {
-        "id":  39,
+        "id":  40,
         "word":  "realize",
         "meaning":  "に気づく；を実現するキジツゲン",
         "partOfSpeech":  "動詞ドウシ",
@@ -468,7 +480,7 @@
         "wrongCount":  0
     },
     {
-        "id":  40,
+        "id":  41,
         "word":  "refuse",
         "meaning":  "を拒む、を否定するコバヒテイ",
         "partOfSpeech":  "動詞ドウシ",
@@ -480,7 +492,7 @@
         "wrongCount":  0
     },
     {
-        "id":  41,
+        "id":  42,
         "word":  "remain",
         "meaning":  "のままである；(に)残るノコ",
         "partOfSpeech":  "動詞ドウシ",
@@ -492,7 +504,7 @@
         "wrongCount":  0
     },
     {
-        "id":  42,
+        "id":  43,
         "word":  "rise",
         "meaning":  "立ち上がる、起き上がるタアオア",
         "partOfSpeech":  "動詞ドウシ",
@@ -504,7 +516,7 @@
         "wrongCount":  0
     },
     {
-        "id":  43,
+        "id":  44,
         "word":  "seem",
         "meaning":  "のように思われる、～らしいオモ",
         "partOfSpeech":  "動詞ドウシ",
@@ -516,7 +528,7 @@
         "wrongCount":  0
     },
     {
-        "id":  44,
+        "id":  45,
         "word":  "set",
         "meaning":  "を整える、を配置するトトノハイチ",
         "partOfSpeech":  "動詞ドウシ",
@@ -528,7 +540,7 @@
         "wrongCount":  0
     },
     {
-        "id":  45,
+        "id":  46,
         "word":  "spend",
         "meaning":  "を費やす、を使うツイツカ",
         "partOfSpeech":  "動詞ドウシ",
@@ -540,7 +552,7 @@
         "wrongCount":  0
     },
     {
-        "id":  46,
+        "id":  47,
         "word":  "spread",
         "meaning":  "を広げる、を伸ばすヒロノ",
         "partOfSpeech":  "動詞ドウシ",
@@ -552,7 +564,7 @@
         "wrongCount":  0
     },
     {
-        "id":  47,
+        "id":  48,
         "word":  "survive",
         "meaning":  "を生き残るイノコ",
         "partOfSpeech":  "動詞ドウシ",
@@ -564,7 +576,7 @@
         "wrongCount":  0
     },
     {
-        "id":  48,
+        "id":  49,
         "word":  "throw",
         "meaning":  "を投げるナ",
         "partOfSpeech":  "動詞ドウシ",
@@ -576,7 +588,7 @@
         "wrongCount":  0
     },
     {
-        "id":  49,
+        "id":  50,
         "word":  "touch",
         "meaning":  "に触れる、を触るフサワ",
         "partOfSpeech":  "動詞ドウシ",
@@ -588,7 +600,7 @@
         "wrongCount":  0
     },
     {
-        "id":  50,
+        "id":  51,
         "word":  "wish",
         "meaning":  "(人)に～してほしいと思うヒトオモ",
         "partOfSpeech":  "動詞ドウシ",
@@ -600,7 +612,7 @@
         "wrongCount":  0
     },
     {
-        "id":  51,
+        "id":  52,
         "word":  "wonder",
         "meaning":  "…かなと思うオモ",
         "partOfSpeech":  "動詞ドウシ",
@@ -612,11 +624,11 @@
         "wrongCount":  0
     },
     {
-        "id":  52,
+        "id":  53,
         "word":  "achieve",
         "meaning":  "を達成する、を成し遂げるタッセイナト",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "You can achieve your goal if you practice regularly and learn from your mistakes.",
         "exampleJa":  "定期的に練習し、失敗から学べば、目標を達成することができます。",
         "attemptCount":  0,
@@ -624,11 +636,11 @@
         "wrongCount":  0
     },
     {
-        "id":  53,
+        "id":  54,
         "word":  "add",
         "meaning":  "を加える、を足すクワタ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Please add your name to the list if you want to join the volunteer activity.",
         "exampleJa":  "ボランティア活動に参加したいなら、そのリストに名前を加えてください。",
         "attemptCount":  0,
@@ -636,11 +648,11 @@
         "wrongCount":  0
     },
     {
-        "id":  54,
+        "id":  55,
         "word":  "allow",
         "meaning":  "を許可する、を認めるキョカミト",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Some schools allow students to bring tablets to class for research and note-taking.",
         "exampleJa":  "調査やノート作成のために、生徒がタブレットを授業に持ち込むことを認める学校もあります。",
         "attemptCount":  0,
@@ -648,11 +660,11 @@
         "wrongCount":  0
     },
     {
-        "id":  55,
+        "id":  56,
         "word":  "blow",
         "meaning":  "を吹く、を吹き飛ばすフフト",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Strong winds can blow sand into the air and make it difficult to see.",
         "exampleJa":  "強い風は砂を空中に吹き上げ、見えにくくすることがあります。",
         "attemptCount":  0,
@@ -660,11 +672,11 @@
         "wrongCount":  0
     },
     {
-        "id":  56,
+        "id":  57,
         "word":  "breathe",
         "meaning":  "を吸う、呼吸するスコキュウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "It is harder to breathe when the air is polluted or filled with smoke.",
         "exampleJa":  "空気が汚れていたり煙でいっぱいだったりすると、呼吸するのが難しくなります。",
         "attemptCount":  0,
@@ -672,11 +684,11 @@
         "wrongCount":  0
     },
     {
-        "id":  57,
+        "id":  58,
         "word":  "burn",
         "meaning":  "を燃やす、を燃焼させるモネンショウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "We should not burn too much fuel because it increases the amount of carbon dioxide.",
         "exampleJa":  "二酸化炭素の量を増やすので、私たちは燃料を使いすぎるべきではありません。",
         "attemptCount":  0,
@@ -684,11 +696,11 @@
         "wrongCount":  0
     },
     {
-        "id":  58,
+        "id":  59,
         "word":  "celebrate",
         "meaning":  "を祝うイワ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "People around the world celebrate the new year with different foods and traditions.",
         "exampleJa":  "世界中の人々は、さまざまな食べ物や伝統で新年を祝います。",
         "attemptCount":  0,
@@ -696,11 +708,11 @@
         "wrongCount":  0
     },
     {
-        "id":  59,
+        "id":  60,
         "word":  "collect",
         "meaning":  "を集めるアツ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "The students collect plastic caps to support a small recycling project at school.",
         "exampleJa":  "生徒たちは学校の小さなリサイクル活動を支援するために、プラスチックのキャップを集めています。",
         "attemptCount":  0,
@@ -708,11 +720,11 @@
         "wrongCount":  0
     },
     {
-        "id":  60,
+        "id":  61,
         "word":  "compare",
         "meaning":  "を(…と)比較する、比べる(with to)ヒカククラ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "When you compare two products, you should look at both the price and quality.",
         "exampleJa":  "二つの商品を比べるときは、価格と品質の両方を見るべきです。",
         "attemptCount":  0,
@@ -720,11 +732,11 @@
         "wrongCount":  0
     },
     {
-        "id":  61,
+        "id":  62,
         "word":  "complete",
         "meaning":  "を仕上げる、を完了するシアカンリョウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "We must complete the report by Friday, so everyone needs to finish their part.",
         "exampleJa":  "金曜日までにレポートを完成させなければならないので、全員が自分の担当を終える必要があります。",
         "attemptCount":  0,
@@ -732,11 +744,11 @@
         "wrongCount":  0
     },
     {
-        "id":  62,
+        "id":  63,
         "word":  "connect",
         "meaning":  "(に)連絡する、(と)つながる(with)レンラク",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "The new bridge will connect the island with the city and make travel easier.",
         "exampleJa":  "その新しい橋は島と市をつなぎ、移動をより簡単にします。",
         "attemptCount":  0,
@@ -744,11 +756,11 @@
         "wrongCount":  0
     },
     {
-        "id":  63,
+        "id":  64,
         "word":  "consider",
         "meaning":  "を考える、を(と)見なすカンガミ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Before choosing a career, you should consider your interests, skills, and future lifestyle.",
         "exampleJa":  "職業を選ぶ前に、自分の興味、技能、将来の生活をよく考えるべきです。",
         "attemptCount":  0,
@@ -756,11 +768,11 @@
         "wrongCount":  0
     },
     {
-        "id":  64,
+        "id":  65,
         "word":  "count",
         "meaning":  "を数えるカゾ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Please count the number of students in each group before the activity begins.",
         "exampleJa":  "活動が始まる前に、それぞれのグループの生徒数を数えてください。",
         "attemptCount":  0,
@@ -768,11 +780,11 @@
         "wrongCount":  0
     },
     {
-        "id":  65,
+        "id":  66,
         "word":  "cover",
         "meaning":  "を覆うオオ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Snow can cover the road quickly, so drivers must be especially careful in winter.",
         "exampleJa":  "雪はすぐに道路を覆うことがあるので、冬は運転者が特に注意しなければなりません。",
         "attemptCount":  0,
@@ -780,11 +792,11 @@
         "wrongCount":  0
     },
     {
-        "id":  66,
+        "id":  67,
         "word":  "cross",
         "meaning":  "を横切る、を交差させるヨコギコウサ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "You should cross the street only when the traffic light is green.",
         "exampleJa":  "信号が青のときだけ道路を渡るべきです。",
         "attemptCount":  0,
@@ -792,11 +804,11 @@
         "wrongCount":  0
     },
     {
-        "id":  67,
+        "id":  68,
         "word":  "cure",
         "meaning":  "(病気)を治す、を治療するビョウキナオチリョウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Scientists are working hard to cure diseases that still cause suffering around the world.",
         "exampleJa":  "科学者たちは、世界中で今も苦しみを引き起こしている病気を治すために懸命に取り組んでいます。",
         "attemptCount":  0,
@@ -804,11 +816,11 @@
         "wrongCount":  0
     },
     {
-        "id":  68,
+        "id":  69,
         "word":  "design",
         "meaning":  "を設計する、をデザインするセッケイ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Engineers design safer cars by testing how they protect people during accidents.",
         "exampleJa":  "技術者たちは、事故の際に人々をどのように守るかを試験して、より安全な車を設計します。",
         "attemptCount":  0,
@@ -816,11 +828,11 @@
         "wrongCount":  0
     },
     {
-        "id":  69,
+        "id":  70,
         "word":  "dig",
         "meaning":  "を掘るホ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "The workers had to dig deep into the ground to repair the broken pipe.",
         "exampleJa":  "作業員たちは壊れた管を修理するために、地面を深く掘らなければなりませんでした。",
         "attemptCount":  0,
@@ -828,11 +840,11 @@
         "wrongCount":  0
     },
     {
-        "id":  70,
+        "id":  71,
         "word":  "disappoint",
         "meaning":  "を失望させる、がっかりさせるシツボウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Try not to disappoint your teammates by quitting when the game becomes difficult.",
         "exampleJa":  "試合が難しくなったときにやめて、チームメートをがっかりさせないようにしなさい。",
         "attemptCount":  0,
@@ -840,11 +852,11 @@
         "wrongCount":  0
     },
     {
-        "id":  71,
+        "id":  72,
         "word":  "discourage",
         "meaning":  "をやめさせる",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "A single failure should not discourage you from trying again and improving your skills.",
         "exampleJa":  "一度の失敗で、もう一度挑戦して技能を高めることをあきらめてはいけません。",
         "attemptCount":  0,
@@ -852,11 +864,11 @@
         "wrongCount":  0
     },
     {
-        "id":  72,
+        "id":  73,
         "word":  "encourage",
         "meaning":  "に(～を)奨励する、を励ますショウレイハゲ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Good teachers encourage students to ask questions and learn from different opinions.",
         "exampleJa":  "良い先生は、生徒が質問し、異なる意見から学ぶように励まします。",
         "attemptCount":  0,
@@ -864,11 +876,11 @@
         "wrongCount":  0
     },
     {
-        "id":  73,
+        "id":  74,
         "word":  "expect",
         "meaning":  "を要求する、を期待するヨウキュウキタイ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Many experts expect robots to play a larger role in hospitals in the future.",
         "exampleJa":  "多くの専門家は、将来ロボットが病院でより大きな役割を果たすと予想しています。",
         "attemptCount":  0,
@@ -876,11 +888,11 @@
         "wrongCount":  0
     },
     {
-        "id":  74,
+        "id":  75,
         "word":  "fail",
         "meaning":  "をしそこなう、を失敗するシッパイ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "People sometimes fail at first, but failure can teach them useful lessons.",
         "exampleJa":  "人は最初に失敗することがありますが、失敗は役に立つ教訓を教えてくれます。",
         "attemptCount":  0,
@@ -888,11 +900,11 @@
         "wrongCount":  0
     },
     {
-        "id":  75,
+        "id":  76,
         "word":  "graduate",
         "meaning":  "(を)卒業する(from)ソツギョウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "After I graduate from high school, I want to study environmental science at university.",
         "exampleJa":  "高校を卒業した後、私は大学で環境科学を学びたいです。",
         "attemptCount":  0,
@@ -900,11 +912,11 @@
         "wrongCount":  0
     },
     {
-        "id":  76,
+        "id":  77,
         "word":  "hang",
         "meaning":  "を掛ける；(に)しがみつくカ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Please hang your wet coat near the door so it can dry before lunch.",
         "exampleJa":  "昼食前に乾くように、濡れたコートをドアの近くに掛けてください。",
         "attemptCount":  0,
@@ -912,11 +924,11 @@
         "wrongCount":  0
     },
     {
-        "id":  77,
+        "id":  78,
         "word":  "hate",
         "meaning":  "をひどく嫌う、を憎むキラニク",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "I hate wasting food because many people still do not have enough to eat.",
         "exampleJa":  "今も十分に食べられない人が多くいるので、私は食べ物を無駄にすることが嫌いです。",
         "attemptCount":  0,
@@ -924,11 +936,11 @@
         "wrongCount":  0
     },
     {
-        "id":  78,
+        "id":  79,
         "word":  "hurt",
         "meaning":  "を傷つける；痛むキズイタ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Careless words can hurt someone deeply, even if you do not mean to be cruel.",
         "exampleJa":  "ひどいことを言うつもりがなくても、不用意な言葉は人を深く傷つけることがあります。",
         "attemptCount":  0,
@@ -936,11 +948,11 @@
         "wrongCount":  0
     },
     {
-        "id":  79,
+        "id":  80,
         "word":  "injure",
         "meaning":  "にけがをさせる、を傷つけるキズ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "A small mistake during practice can injure a player, so safety rules are important.",
         "exampleJa":  "練習中の小さなミスが選手にけがをさせることがあるので、安全ルールは重要です。",
         "attemptCount":  0,
@@ -948,11 +960,11 @@
         "wrongCount":  0
     },
     {
-        "id":  80,
+        "id":  81,
         "word":  "lay",
         "meaning":  "を置く、を横たえるオヨコ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Please lay the clean towels on the table before the guests arrive.",
         "exampleJa":  "お客さんが到着する前に、清潔なタオルをテーブルの上に置いてください。",
         "attemptCount":  0,
@@ -960,11 +972,11 @@
         "wrongCount":  0
     },
     {
-        "id":  81,
+        "id":  82,
         "word":  "limit",
         "meaning":  "を(～に)制限する(to)セイゲン",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Parents sometimes limit screen time to help children sleep better and study more.",
         "exampleJa":  "親は子どもがよく眠り、もっと勉強できるように、画面を見る時間を制限することがあります。",
         "attemptCount":  0,
@@ -972,11 +984,11 @@
         "wrongCount":  0
     },
     {
-        "id":  82,
+        "id":  83,
         "word":  "marry",
         "meaning":  "(人)と結婚するヒトケッコン",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "They decided to marry after working together in the same hospital for many years.",
         "exampleJa":  "彼らは何年も同じ病院で一緒に働いた後、結婚することに決めました。",
         "attemptCount":  0,
@@ -984,11 +996,11 @@
         "wrongCount":  0
     },
     {
-        "id":  83,
+        "id":  84,
         "word":  "prepare",
         "meaning":  "(～に備えて)準備する(for)ソナジュンビ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "We need to prepare carefully for the presentation because many people will be watching.",
         "exampleJa":  "多くの人が見るので、私たちは発表の準備を注意深くする必要があります。",
         "attemptCount":  0,
@@ -996,11 +1008,11 @@
         "wrongCount":  0
     },
     {
-        "id":  84,
+        "id":  85,
         "word":  "promise",
         "meaning":  "を約束するヤクソク",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Please promise to return the book by next Monday if you borrow it today.",
         "exampleJa":  "今日その本を借りるなら、来週の月曜日までに返すと約束してください。",
         "attemptCount":  0,
@@ -1008,11 +1020,11 @@
         "wrongCount":  0
     },
     {
-        "id":  85,
+        "id":  86,
         "word":  "prove",
         "meaning":  "(～であることが)わかる",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "The experiment may prove that plants grow faster when they receive enough sunlight.",
         "exampleJa":  "その実験は、植物が十分な日光を受けるとより速く育つことを証明するかもしれません。",
         "attemptCount":  0,
@@ -1020,11 +1032,11 @@
         "wrongCount":  0
     },
     {
-        "id":  86,
+        "id":  87,
         "word":  "publish",
         "meaning":  "を出版する、を発表するシュッパンハッピョウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "The newspaper will publish an article about students who cleaned the local beach.",
         "exampleJa":  "その新聞は、地元の浜辺を清掃した生徒たちについての記事を掲載する予定です。",
         "attemptCount":  0,
@@ -1032,11 +1044,11 @@
         "wrongCount":  0
     },
     {
-        "id":  87,
+        "id":  88,
         "word":  "push",
         "meaning":  "(を)押す、を押して…にするオオ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Do not push other passengers when you get on a crowded train.",
         "exampleJa":  "混んだ電車に乗るとき、他の乗客を押さないでください。",
         "attemptCount":  0,
@@ -1044,11 +1056,11 @@
         "wrongCount":  0
     },
     {
-        "id":  88,
+        "id":  89,
         "word":  "receive",
         "meaning":  "を受け取るウト",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Students who volunteer at the event will receive a certificate from the city.",
         "exampleJa":  "その行事でボランティアをする生徒は、市から証明書を受け取ります。",
         "attemptCount":  0,
@@ -1056,11 +1068,11 @@
         "wrongCount":  0
     },
     {
-        "id":  89,
+        "id":  90,
         "word":  "reduce",
         "meaning":  "を消滅する、を減らすショウメツヘ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Using reusable bottles can reduce plastic waste and help protect the ocean.",
         "exampleJa":  "再利用できるボトルを使うことは、プラスチックごみを減らし、海を守る助けになります。",
         "attemptCount":  0,
@@ -1068,11 +1080,11 @@
         "wrongCount":  0
     },
     {
-        "id":  90,
+        "id":  91,
         "word":  "reflect",
         "meaning":  "を反映する、を反射するハンエイハンシャ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "The survey results reflect how students feel about homework and school events.",
         "exampleJa":  "その調査結果は、生徒が宿題や学校行事についてどのように感じているかを反映しています。",
         "attemptCount":  0,
@@ -1080,11 +1092,11 @@
         "wrongCount":  0
     },
     {
-        "id":  91,
+        "id":  92,
         "word":  "relax",
         "meaning":  "リラックスする、くつろぐ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "After a busy week, I relax by listening to music and walking near the river.",
         "exampleJa":  "忙しい一週間の後、私は音楽を聞いたり川の近くを歩いたりしてくつろぎます。",
         "attemptCount":  0,
@@ -1092,11 +1104,11 @@
         "wrongCount":  0
     },
     {
-        "id":  92,
+        "id":  93,
         "word":  "remove",
         "meaning":  "を取り除く、を取り外すトノゾトハズ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Please remove your shoes before entering the room to keep the floor clean.",
         "exampleJa":  "床を清潔に保つため、部屋に入る前に靴を脱いでください。",
         "attemptCount":  0,
@@ -1104,11 +1116,11 @@
         "wrongCount":  0
     },
     {
-        "id":  93,
+        "id":  94,
         "word":  "respect",
         "meaning":  "を尊重する、を敬うソンチョウウヤマ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "We should respect people from different cultures and try to learn from them.",
         "exampleJa":  "私たちは異なる文化の人々を尊重し、彼らから学ぼうとするべきです。",
         "attemptCount":  0,
@@ -1116,11 +1128,11 @@
         "wrongCount":  0
     },
     {
-        "id":  94,
+        "id":  95,
         "word":  "ring",
         "meaning":  "(ベル)を鳴らす；鳴るナナ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "The bell will ring at eight thirty, so students should be in class before then.",
         "exampleJa":  "ベルは8時30分に鳴るので、生徒はそれまでに教室にいるべきです。",
         "attemptCount":  0,
@@ -1128,11 +1140,11 @@
         "wrongCount":  0
     },
     {
-        "id":  95,
+        "id":  96,
         "word":  "search",
         "meaning":  "(場所)を捜すバショサガ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "The police continued to search the area until they found the missing child.",
         "exampleJa":  "警察は行方不明の子どもを見つけるまで、その地域を捜し続けました。",
         "attemptCount":  0,
@@ -1140,11 +1152,11 @@
         "wrongCount":  0
     },
     {
-        "id":  96,
+        "id":  97,
         "word":  "shine",
         "meaning":  "をみがく；光る、輝くヒカカガヤ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "The old silver cup began to shine after we cleaned it carefully.",
         "exampleJa":  "私たちが丁寧に磨くと、その古い銀のカップは輝き始めました。",
         "attemptCount":  0,
@@ -1152,11 +1164,11 @@
         "wrongCount":  0
     },
     {
-        "id":  97,
+        "id":  98,
         "word":  "shoot",
         "meaning":  "を撃つ、を発射するウハッシャ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "The photographer will shoot pictures of the festival for the town website.",
         "exampleJa":  "その写真家は町のウェブサイト用に祭りの写真を撮影します。",
         "attemptCount":  0,
@@ -1164,11 +1176,11 @@
         "wrongCount":  0
     },
     {
-        "id":  98,
+        "id":  99,
         "word":  "solve",
         "meaning":  "を解く、を解決するトカイケツ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "It took the team several weeks to solve the problem with the new system.",
         "exampleJa":  "そのチームが新しいシステムの問題を解決するのに数週間かかりました。",
         "attemptCount":  0,
@@ -1176,11 +1188,11 @@
         "wrongCount":  0
     },
     {
-        "id":  99,
+        "id":  100,
         "word":  "steal",
         "meaning":  "を盗むヌス",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Someone tried to steal a bicycle from the station, but a camera recorded it.",
         "exampleJa":  "誰かが駅から自転車を盗もうとしましたが、カメラがそれを記録していました。",
         "attemptCount":  0,
@@ -1188,11 +1200,11 @@
         "wrongCount":  0
     },
     {
-        "id":  100,
+        "id":  101,
         "word":  "struggle",
         "meaning":  "奮闘する、もがくフントウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Many students struggle with grammar at first, but practice makes it easier.",
         "exampleJa":  "多くの生徒は最初文法に苦労しますが、練習によってそれは簡単になります。",
         "attemptCount":  0,
@@ -1200,11 +1212,11 @@
         "wrongCount":  0
     },
     {
-        "id":  101,
+        "id":  102,
         "word":  "succeed",
         "meaning":  "(に)成功する(in);(～の)あとを継ぐ(to)セイコウツ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "You are more likely to succeed if you set clear goals and keep working.",
         "exampleJa":  "明確な目標を立てて努力を続ければ、成功する可能性が高くなります。",
         "attemptCount":  0,
@@ -1212,11 +1224,11 @@
         "wrongCount":  0
     },
     {
-        "id":  102,
+        "id":  103,
         "word":  "surround",
         "meaning":  "を囲む、を取り囲むカコトカコ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Tall trees surround the old temple and make the area feel peaceful.",
         "exampleJa":  "高い木々がその古い寺を囲み、その場所を落ち着いた雰囲気にしています。",
         "attemptCount":  0,
@@ -1224,11 +1236,11 @@
         "wrongCount":  0
     },
     {
-        "id":  103,
+        "id":  104,
         "word":  "tie",
         "meaning":  "を(～に)結ぶ、を(に～)結合するムスケツゴウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Please tie the boxes together so they will not fall during transport.",
         "exampleJa":  "運搬中に落ちないように、その箱を一緒に結んでください。",
         "attemptCount":  0,
@@ -1236,11 +1248,11 @@
         "wrongCount":  0
     },
     {
-        "id":  104,
+        "id":  105,
         "word":  "treat",
         "meaning":  "を扱う、を治療するアツカチリョウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "Doctors must treat every patient with kindness, respect, and careful attention.",
         "exampleJa":  "医師はすべての患者を、親切さ、敬意、そして細かな注意をもって扱わなければなりません。",
         "attemptCount":  0,
@@ -1248,11 +1260,11 @@
         "wrongCount":  0
     },
     {
-        "id":  105,
+        "id":  106,
         "word":  "wound",
         "meaning":  "を負傷させる、にけがをさせるフショウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "2",
         "example":  "The sharp glass may wound someone, so we should clean it up immediately.",
         "exampleJa":  "鋭いガラスは誰かにけがをさせるかもしれないので、すぐに片づけるべきです。",
         "attemptCount":  0,
@@ -1260,11 +1272,11 @@
         "wrongCount":  0
     },
     {
-        "id":  106,
+        "id":  107,
         "word":  "affect",
         "meaning":  "に影響する、に作用するエイキョウサヨウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "The weather can affect our mood, our plans, and even the food we choose.",
         "exampleJa":  "天気は私たちの気分、予定、さらには選ぶ食べ物にまで影響を与えることがあります。",
         "attemptCount":  0,
@@ -1272,11 +1284,11 @@
         "wrongCount":  0
     },
     {
-        "id":  107,
+        "id":  108,
         "word":  "appreciate",
         "meaning":  "を認識する、を評価するニンシキヒョウカ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "I appreciate your help because the project would have been difficult without you.",
         "exampleJa":  "あなたがいなければその企画は難しかったので、私はあなたの助けに感謝しています。",
         "attemptCount":  0,
@@ -1284,11 +1296,11 @@
         "wrongCount":  0
     },
     {
-        "id":  108,
+        "id":  109,
         "word":  "approach",
         "meaning":  "に近づく、に接近するチカセッキン",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "As we approach the station, please check that you have all your belongings.",
         "exampleJa":  "駅に近づいたら、持ち物をすべて持っているか確認してください。",
         "attemptCount":  0,
@@ -1296,11 +1308,11 @@
         "wrongCount":  0
     },
     {
-        "id":  109,
+        "id":  110,
         "word":  "attend",
         "meaning":  "に出席する、に参加するシュッセキサンカ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Students who attend the workshop will learn how to write clearer essays.",
         "exampleJa":  "その講習に参加する生徒は、より分かりやすい作文の書き方を学びます。",
         "attemptCount":  0,
@@ -1308,11 +1320,11 @@
         "wrongCount":  0
     },
     {
-        "id":  110,
+        "id":  111,
         "word":  "avoid",
         "meaning":  "を避ける、を回復するサカイフク",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "To avoid catching a cold, wash your hands and get enough sleep every day.",
         "exampleJa":  "風邪をひくのを避けるため、毎日手を洗い、十分な睡眠を取りなさい。",
         "attemptCount":  0,
@@ -1320,11 +1332,11 @@
         "wrongCount":  0
     },
     {
-        "id":  111,
+        "id":  112,
         "word":  "bite",
         "meaning":  "をかむ、にらみつく",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Some dogs bite when they are scared, so you should approach them slowly.",
         "exampleJa":  "怖がっているときにかむ犬もいるので、ゆっくり近づくべきです。",
         "attemptCount":  0,
@@ -1332,11 +1344,11 @@
         "wrongCount":  0
     },
     {
-        "id":  112,
+        "id":  113,
         "word":  "burst",
         "meaning":  "急に～する[し始める](into);破裂するキュウハジハレツ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "The children burst into laughter when the teacher made a funny mistake.",
         "exampleJa":  "先生がおかしな間違いをすると、子どもたちは急に笑い出しました。",
         "attemptCount":  0,
@@ -1344,11 +1356,11 @@
         "wrongCount":  0
     },
     {
-        "id":  113,
+        "id":  114,
         "word":  "bury",
         "meaning":  "を埋葬する、を埋めるマイソウウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "People sometimes bury time capsules to leave messages for future generations.",
         "exampleJa":  "人々は将来の世代にメッセージを残すために、タイムカプセルを埋めることがあります。",
         "attemptCount":  0,
@@ -1356,11 +1368,11 @@
         "wrongCount":  0
     },
     {
-        "id":  114,
+        "id":  115,
         "word":  "choose",
         "meaning":  "を選ぶエラ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Choose a topic that interests you, or writing the report will feel difficult.",
         "exampleJa":  "自分が興味をもてるテーマを選びなさい。そうでないと、レポートを書くのが難しく感じられます。",
         "attemptCount":  0,
@@ -1368,11 +1380,11 @@
         "wrongCount":  0
     },
     {
-        "id":  115,
+        "id":  116,
         "word":  "claim",
         "meaning":  "(真実・事実である)というシンジツジジツ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Some advertisements claim their products can change your life, but you should be careful.",
         "exampleJa":  "一部の広告は商品が人生を変えると主張しますが、注意するべきです。",
         "attemptCount":  0,
@@ -1380,11 +1392,11 @@
         "wrongCount":  0
     },
     {
-        "id":  116,
+        "id":  117,
         "word":  "contain",
         "meaning":  "が入ってくるハイ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "This box may contain fragile items, so please carry it carefully.",
         "exampleJa":  "この箱には壊れやすい物が入っているかもしれないので、注意して運んでください。",
         "attemptCount":  0,
@@ -1392,11 +1404,11 @@
         "wrongCount":  0
     },
     {
-        "id":  117,
+        "id":  118,
         "word":  "deal",
         "meaning":  "(を)扱う、(を)処理する(with)アツカショリ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "We need to deal with the problem quickly before it becomes more serious.",
         "exampleJa":  "その問題がより深刻になる前に、私たちはすばやく対処する必要があります。",
         "attemptCount":  0,
@@ -1404,11 +1416,11 @@
         "wrongCount":  0
     },
     {
-        "id":  118,
+        "id":  119,
         "word":  "describe",
         "meaning":  "を述べる、を描写するノビョウシャ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Can you describe the person you saw near the station last night?",
         "exampleJa":  "昨夜駅の近くで見た人物について説明できますか。",
         "attemptCount":  0,
@@ -1416,11 +1428,11 @@
         "wrongCount":  0
     },
     {
-        "id":  119,
+        "id":  120,
         "word":  "establish",
         "meaning":  "を確立する、を打ち立てるカクリツウタ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "The organization hopes to establish a new system for helping children after disasters.",
         "exampleJa":  "その団体は、災害後に子どもたちを助ける新しい制度を確立したいと考えています。",
         "attemptCount":  0,
@@ -1428,11 +1440,11 @@
         "wrongCount":  0
     },
     {
-        "id":  120,
+        "id":  121,
         "word":  "explode",
         "meaning":  "爆発するバクハツ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Gas tanks can explode if they are damaged or placed near fire.",
         "exampleJa":  "ガスタンクは、傷ついたり火の近くに置かれたりすると爆発することがあります。",
         "attemptCount":  0,
@@ -1440,11 +1452,11 @@
         "wrongCount":  0
     },
     {
-        "id":  121,
+        "id":  122,
         "word":  "fit",
         "meaning":  "に合う、に適合するアテキゴウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "These shoes do not fit me well, so I need a larger size.",
         "exampleJa":  "この靴は私にうまく合わないので、もっと大きいサイズが必要です。",
         "attemptCount":  0,
@@ -1452,11 +1464,11 @@
         "wrongCount":  0
     },
     {
-        "id":  122,
+        "id":  123,
         "word":  "float",
         "meaning":  "浮かぶウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Oil can float on water because it is lighter and does not mix easily.",
         "exampleJa":  "油は水より軽く、簡単には混ざらないため、水に浮くことがあります。",
         "attemptCount":  0,
@@ -1464,11 +1476,11 @@
         "wrongCount":  0
     },
     {
-        "id":  123,
+        "id":  124,
         "word":  "freeze",
         "meaning":  "を凍らせるコオ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Food companies freeze vegetables soon after picking them to keep them fresh.",
         "exampleJa":  "食品会社は野菜を新鮮に保つため、収穫後すぐに凍らせます。",
         "attemptCount":  0,
@@ -1476,11 +1488,11 @@
         "wrongCount":  0
     },
     {
-        "id":  124,
+        "id":  125,
         "word":  "gain",
         "meaning":  "を得る、を手に入れるエテイ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "You can gain useful experience by joining activities outside the classroom.",
         "exampleJa":  "教室の外の活動に参加することで、役に立つ経験を得ることができます。",
         "attemptCount":  0,
@@ -1488,11 +1500,11 @@
         "wrongCount":  0
     },
     {
-        "id":  125,
+        "id":  126,
         "word":  "gather",
         "meaning":  "を(拾い)集める、をかき集めるヒロアツアツ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "The students gather information from books, websites, and interviews before writing reports.",
         "exampleJa":  "生徒たちはレポートを書く前に、本、ウェブサイト、インタビューから情報を集めます。",
         "attemptCount":  0,
@@ -1500,11 +1512,11 @@
         "wrongCount":  0
     },
     {
-        "id":  126,
+        "id":  127,
         "word":  "greet",
         "meaning":  "にあいさすする、を出迎えるデムカ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "It is polite to greet visitors with a smile when they arrive.",
         "exampleJa":  "訪問者が到着したとき、笑顔であいさつするのは礼儀正しいことです。",
         "attemptCount":  0,
@@ -1512,11 +1524,11 @@
         "wrongCount":  0
     },
     {
-        "id":  127,
+        "id":  128,
         "word":  "hatch",
         "meaning":  "(卵が)かえるタマゴ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "The eggs will hatch in about two weeks if they are kept warm.",
         "exampleJa":  "その卵は暖かく保たれれば、約二週間でかえります。",
         "attemptCount":  0,
@@ -1524,11 +1536,11 @@
         "wrongCount":  0
     },
     {
-        "id":  128,
+        "id":  129,
         "word":  "hug",
         "meaning":  "を抱きしめるダ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "She wanted to hug her friend after hearing the good news.",
         "exampleJa":  "その良い知らせを聞いた後、彼女は友達を抱きしめたいと思いました。",
         "attemptCount":  0,
@@ -1536,11 +1548,11 @@
         "wrongCount":  0
     },
     {
-        "id":  129,
+        "id":  130,
         "word":  "hunt",
         "meaning":  "を狩る、(を)捜す、探し求めるカサガサガモト",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Some birds hunt small insects in the grass during the early morning.",
         "exampleJa":  "一部の鳥は早朝、草の中で小さな虫を狩ります。",
         "attemptCount":  0,
@@ -1548,11 +1560,11 @@
         "wrongCount":  0
     },
     {
-        "id":  130,
+        "id":  131,
         "word":  "impress",
         "meaning":  "を感心させる、に感銘を与えるカンシンカンメイアタ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "The student tried to impress the judges with a clear speech and strong evidence.",
         "exampleJa":  "その生徒は、分かりやすいスピーチと強い根拠で審査員を感心させようとしました。",
         "attemptCount":  0,
@@ -1560,11 +1572,11 @@
         "wrongCount":  0
     },
     {
-        "id":  131,
+        "id":  132,
         "word":  "include",
         "meaning":  "を入れるイ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Your report should include facts, examples, and your own opinion.",
         "exampleJa":  "あなたのレポートには、事実、例、そして自分の意見を含めるべきです。",
         "attemptCount":  0,
@@ -1572,11 +1584,11 @@
         "wrongCount":  0
     },
     {
-        "id":  132,
+        "id":  133,
         "word":  "invent",
         "meaning":  "を発明する、をでっち上げるハツメイア",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Many people dream of inventing machines that make daily life safer and easier.",
         "exampleJa":  "多くの人々は、日常生活をより安全で簡単にする機械を発明することを夢見ています。",
         "attemptCount":  0,
@@ -1584,11 +1596,11 @@
         "wrongCount":  0
     },
     {
-        "id":  133,
+        "id":  134,
         "word":  "kick",
         "meaning":  "をける",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Do not kick the ball near the windows because the glass may break.",
         "exampleJa":  "ガラスが割れるかもしれないので、窓の近くでボールをけらないでください。",
         "attemptCount":  0,
@@ -1596,11 +1608,11 @@
         "wrongCount":  0
     },
     {
-        "id":  134,
+        "id":  135,
         "word":  "melt",
         "meaning":  "溶けるト",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Ice will melt quickly if you leave it outside on a hot summer day.",
         "exampleJa":  "暑い夏の日に外に置いておくと、氷はすぐに溶けます。",
         "attemptCount":  0,
@@ -1608,11 +1620,11 @@
         "wrongCount":  0
     },
     {
-        "id":  135,
+        "id":  136,
         "word":  "mix",
         "meaning":  "を(～と)混ぜるマ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Mix the eggs and flour slowly until the dough becomes soft and smooth.",
         "exampleJa":  "生地が柔らかくなめらかになるまで、卵と小麦粉をゆっくり混ぜなさい。",
         "attemptCount":  0,
@@ -1620,11 +1632,11 @@
         "wrongCount":  0
     },
     {
-        "id":  136,
+        "id":  137,
         "word":  "nod",
         "meaning":  "(首)をたてに振る、を(うなずいて)示すクビフシメ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "If you agree with the idea, nod your head instead of speaking loudly.",
         "exampleJa":  "その考えに賛成なら、大声で話す代わりにうなずきなさい。",
         "attemptCount":  0,
@@ -1632,11 +1644,11 @@
         "wrongCount":  0
     },
     {
-        "id":  137,
+        "id":  138,
         "word":  "offer",
         "meaning":  "を提供する、を申し出る(for)テイキョウモウデ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "The local library will offer free English classes for children during summer vacation.",
         "exampleJa":  "地元の図書館は夏休み中、子ども向けの無料英語教室を提供します。",
         "attemptCount":  0,
@@ -1644,11 +1656,11 @@
         "wrongCount":  0
     },
     {
-        "id":  138,
+        "id":  139,
         "word":  "pray",
         "meaning":  "(を)祈るイノ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Many people pray for peace when they visit a temple or church.",
         "exampleJa":  "多くの人々は寺や教会を訪れると、平和を祈ります。",
         "attemptCount":  0,
@@ -1656,11 +1668,11 @@
         "wrongCount":  0
     },
     {
-        "id":  139,
+        "id":  140,
         "word":  "prefer",
         "meaning":  "(～すること)が好きであるス",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "I prefer studying in the morning because my mind feels clearer then.",
         "exampleJa":  "そのときの方が頭がすっきりしているので、私は朝に勉強する方が好きです。",
         "attemptCount":  0,
@@ -1668,11 +1680,11 @@
         "wrongCount":  0
     },
     {
-        "id":  140,
+        "id":  141,
         "word":  "protest",
         "meaning":  "抗議する、異議をとなえるコウギイギ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Citizens may protest when they believe a decision is unfair or harmful.",
         "exampleJa":  "決定が不公平または有害だと信じるとき、市民は抗議することがあります。",
         "attemptCount":  0,
@@ -1680,11 +1692,11 @@
         "wrongCount":  0
     },
     {
-        "id":  141,
+        "id":  142,
         "word":  "provide",
         "meaning":  "を供給する、を与えるキョウキュウアタ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "The school will provide lunch for students who stay for the afternoon program.",
         "exampleJa":  "その学校は午後のプログラムに残る生徒に昼食を提供します。",
         "attemptCount":  0,
@@ -1692,11 +1704,11 @@
         "wrongCount":  0
     },
     {
-        "id":  142,
+        "id":  143,
         "word":  "recognize",
         "meaning":  "をわかる、を認識するニンシキ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "It is important to recognize your own weaknesses before you try to improve.",
         "exampleJa":  "上達しようとする前に、自分の弱点を認識することが重要です。",
         "attemptCount":  0,
@@ -1704,11 +1716,11 @@
         "wrongCount":  0
     },
     {
-        "id":  143,
+        "id":  144,
         "word":  "recycle",
         "meaning":  "をリサイクルする、を再利用するサイリヨウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Many towns recycle paper and cans to reduce waste and save resources.",
         "exampleJa":  "多くの町は、ごみを減らし資源を節約するために紙や缶をリサイクルしています。",
         "attemptCount":  0,
@@ -1716,11 +1728,11 @@
         "wrongCount":  0
     },
     {
-        "id":  144,
+        "id":  145,
         "word":  "refer",
         "meaning":  "(を)呼ぶヨ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "When writing a report, refer to reliable sources and clearly show where they came from.",
         "exampleJa":  "レポートを書くときは、信頼できる資料を参照し、それらの出典をはっきり示しなさい。",
         "attemptCount":  0,
@@ -1728,11 +1740,11 @@
         "wrongCount":  0
     },
     {
-        "id":  145,
+        "id":  146,
         "word":  "relate",
         "meaning":  "(に)関連がある(to)カンレン",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "This story may relate to your own experience if you have moved to a new school.",
         "exampleJa":  "新しい学校に転校した経験があるなら、この物語はあなた自身の経験と関係があるかもしれません。",
         "attemptCount":  0,
@@ -1740,11 +1752,11 @@
         "wrongCount":  0
     },
     {
-        "id":  146,
+        "id":  147,
         "word":  "release",
         "meaning":  "を釈放する、を自由にするシャクホウジユウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "The animal center will release the injured bird after it becomes strong enough.",
         "exampleJa":  "その動物センターは、けがをした鳥が十分に元気になった後で放します。",
         "attemptCount":  0,
@@ -1752,11 +1764,11 @@
         "wrongCount":  0
     },
     {
-        "id":  147,
+        "id":  148,
         "word":  "require",
         "meaning":  "を必要とする、を要求するヒツヨウヨウキュウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Some jobs require strong communication skills as well as technical knowledge.",
         "exampleJa":  "一部の仕事は、専門知識だけでなく高いコミュニケーション能力も必要とします。",
         "attemptCount":  0,
@@ -1764,11 +1776,11 @@
         "wrongCount":  0
     },
     {
-        "id":  148,
+        "id":  149,
         "word":  "roll",
         "meaning":  "を巻く、を丸めるママル",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Roll the poster carefully and put it into the tube before carrying it.",
         "exampleJa":  "ポスターを運ぶ前に、丁寧に丸めて筒に入れなさい。",
         "attemptCount":  0,
@@ -1776,11 +1788,11 @@
         "wrongCount":  0
     },
     {
-        "id":  149,
+        "id":  150,
         "word":  "scream",
         "meaning":  "叫ぶ、悲鳴を上げるサケヒメイア",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "People may scream when they are surprised by a sudden loud noise.",
         "exampleJa":  "突然の大きな音に驚いたとき、人々は悲鳴を上げることがあります。",
         "attemptCount":  0,
@@ -1788,11 +1800,11 @@
         "wrongCount":  0
     },
     {
-        "id":  150,
+        "id":  151,
         "word":  "select",
         "meaning":  "を選び出す、を選択するエラダセンタク",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Please select one topic from the list and prepare a short presentation.",
         "exampleJa":  "リストから一つのテーマを選び、短い発表を準備してください。",
         "attemptCount":  0,
@@ -1800,11 +1812,11 @@
         "wrongCount":  0
     },
     {
-        "id":  151,
+        "id":  152,
         "word":  "serve",
         "meaning":  "に役立つ、ヤクダ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "This community center will serve as a shelter if a large disaster occurs.",
         "exampleJa":  "大きな災害が起きた場合、この地域センターは避難所として役立ちます。",
         "attemptCount":  0,
@@ -1812,11 +1824,11 @@
         "wrongCount":  0
     },
     {
-        "id":  152,
+        "id":  153,
         "word":  "shake",
         "meaning":  "をつかんでゆする、を振り落とすフオ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Shake the bottle well before you drink it because the ingredients settle at the bottom.",
         "exampleJa":  "材料が底に沈むので、飲む前にそのボトルをよく振りなさい。",
         "attemptCount":  0,
@@ -1824,11 +1836,11 @@
         "wrongCount":  0
     },
     {
-        "id":  153,
+        "id":  154,
         "word":  "shut",
         "meaning":  "を閉める、を閉じるシト",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Please shut the windows before leaving the classroom in case it rains.",
         "exampleJa":  "雨が降るといけないので、教室を出る前に窓を閉めてください。",
         "attemptCount":  0,
@@ -1836,11 +1848,11 @@
         "wrongCount":  0
     },
     {
-        "id":  154,
+        "id":  155,
         "word":  "sink",
         "meaning":  "(に)沈む、(に)落ち込む(in,into,to)シズオコ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "A stone will sink in water because it is usually heavier than the same amount of water.",
         "exampleJa":  "石は同じ量の水よりふつう重いので、水に沈みます。",
         "attemptCount":  0,
@@ -1848,11 +1860,11 @@
         "wrongCount":  0
     },
     {
-        "id":  155,
+        "id":  156,
         "word":  "spell",
         "meaning":  "を正しく書くタダカ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "Can you spell your name slowly so I can write it correctly?",
         "exampleJa":  "正しく書けるように、あなたの名前をゆっくりつづってくれますか。",
         "attemptCount":  0,
@@ -1860,11 +1872,11 @@
         "wrongCount":  0
     },
     {
-        "id":  156,
+        "id":  157,
         "word":  "suggest",
         "meaning":  "を提案するテイアン",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "I suggest taking a short break because everyone looks tired after the long meeting.",
         "exampleJa":  "長い会議の後で全員が疲れて見えるので、短い休憩を取ることを提案します。",
         "attemptCount":  0,
@@ -1872,11 +1884,11 @@
         "wrongCount":  0
     },
     {
-        "id":  157,
+        "id":  158,
         "word":  "suppose",
         "meaning":  "を思う、を推量するオモスイリョウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "3",
         "example":  "I suppose the train is late because the weather has been very bad today.",
         "exampleJa":  "今日は天気がとても悪いので、その電車は遅れているのだと思います。",
         "attemptCount":  0,
@@ -1884,11 +1896,11 @@
         "wrongCount":  0
     },
     {
-        "id":  158,
+        "id":  159,
         "word":  "announce",
         "meaning":  "を発表する、を公表するハッピョウコウヒョウ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "4",
         "example":  "The principal will announce the schedule for the school festival tomorrow morning.",
         "exampleJa":  "校長先生は明日の朝、文化祭の日程を発表する予定です。",
         "attemptCount":  0,
@@ -1896,11 +1908,11 @@
         "wrongCount":  0
     },
     {
-        "id":  159,
+        "id":  160,
         "word":  "arrest",
         "meaning":  "を逮捕するタイホ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "4",
         "example":  "The police may arrest people who break the law and put others in danger.",
         "exampleJa":  "警察は法律を破り、他人を危険にさらす人々を逮捕することがあります。",
         "attemptCount":  0,
@@ -1908,11 +1920,11 @@
         "wrongCount":  0
     },
     {
-        "id":  160,
+        "id":  161,
         "word":  "attach",
         "meaning":  "をつなぐ、を付けるツ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "4",
         "example":  "Please attach the file to your email before you send the report.",
         "exampleJa":  "レポートを送る前に、メールにそのファイルを添付してください。",
         "attemptCount":  0,
@@ -1920,11 +1932,11 @@
         "wrongCount":  0
     },
     {
-        "id":  161,
+        "id":  162,
         "word":  "ban",
         "meaning":  "を禁止するキンシ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "4",
         "example":  "Some countries ban plastic bags to reduce waste and protect the environment.",
         "exampleJa":  "一部の国は、ごみを減らし環境を守るためにレジ袋を禁止しています。",
         "attemptCount":  0,
@@ -1932,11 +1944,11 @@
         "wrongCount":  0
     },
     {
-        "id":  162,
+        "id":  163,
         "word":  "beg",
         "meaning":  "(熱心に)を頼むネッシンタノ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "4",
         "example":  "The child began to beg for help when he could not find his parents.",
         "exampleJa":  "その子どもは両親を見つけられなくなると、助けを求め始めました。",
         "attemptCount":  0,
@@ -1944,11 +1956,11 @@
         "wrongCount":  0
     },
     {
-        "id":  163,
+        "id":  164,
         "word":  "boil",
         "meaning":  "を沸かす、を煮るワニ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "4",
         "example":  "Boil the water for a few minutes before you make tea or soup.",
         "exampleJa":  "お茶やスープを作る前に、水を数分間沸かしなさい。",
         "attemptCount":  0,
@@ -1956,11 +1968,11 @@
         "wrongCount":  0
     },
     {
-        "id":  164,
+        "id":  165,
         "word":  "brush",
         "meaning":  "(髪)をとかす、にブラシをかけるカミ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "4",
         "example":  "Brush your teeth carefully after meals to keep them healthy and clean.",
         "exampleJa":  "歯を健康できれいに保つために、食後は丁寧に歯を磨きなさい。",
         "attemptCount":  0,
@@ -1968,11 +1980,11 @@
         "wrongCount":  0
     },
     {
-        "id":  165,
+        "id":  166,
         "word":  "cheer",
         "meaning":  "を応援する、に声援を送るオウエンセイエンオク",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "4",
         "example":  "The students cheer loudly when their team scores a goal in the final game.",
         "exampleJa":  "決勝戦で自分たちのチームが得点すると、生徒たちは大きな声で応援します。",
         "attemptCount":  0,
@@ -1980,11 +1992,11 @@
         "wrongCount":  0
     },
     {
-        "id":  166,
+        "id":  167,
         "word":  "clap",
         "meaning":  "(手)をたたく、に拍手するテハクシュ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "4",
         "example":  "The audience began to clap when the young musician finished her performance.",
         "exampleJa":  "若い音楽家が演奏を終えると、観客は拍手し始めました。",
         "attemptCount":  0,
@@ -1992,11 +2004,11 @@
         "wrongCount":  0
     },
     {
-        "id":  167,
+        "id":  168,
         "word":  "complain",
         "meaning":  "文句を言う、不平を言うモンクイフヘイイ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "4",
         "example":  "Customers sometimes complain when the service is slow or the food is cold.",
         "exampleJa":  "サービスが遅かったり食べ物が冷たかったりすると、客は時々不満を言います。",
         "attemptCount":  0,
@@ -2004,11 +2016,11 @@
         "wrongCount":  0
     },
     {
-        "id":  168,
+        "id":  169,
         "word":  "conquer",
         "meaning":  "を征服するセイフク",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "4",
         "example":  "The team worked hard to conquer their fear of speaking in front of others.",
         "exampleJa":  "そのチームは人前で話す恐怖を克服するために一生懸命努力しました。",
         "attemptCount":  0,
@@ -2016,11 +2028,11 @@
         "wrongCount":  0
     },
     {
-        "id":  169,
+        "id":  170,
         "word":  "disagree",
         "meaning":  "意見が合わないイケンア",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "4",
         "example":  "Friends can disagree about many things and still respect each other.",
         "exampleJa":  "友達は多くのことについて意見が合わなくても、それでも互いを尊重することができます。",
         "attemptCount":  0,
@@ -2028,11 +2040,11 @@
         "wrongCount":  0
     },
     {
-        "id":  170,
+        "id":  171,
         "word":  "discuss",
         "meaning":  "を相談する、を話し合うソウダンハナア",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "4",
         "example":  "We will discuss the plan after school and decide what to do next.",
         "exampleJa":  "私たちは放課後その計画について話し合い、次に何をするか決めます。",
         "attemptCount":  0,
@@ -2040,11 +2052,11 @@
         "wrongCount":  0
     },
     {
-        "id":  171,
+        "id":  172,
         "word":  "divide",
         "meaning":  "(に)分かれるワ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "4",
         "example":  "The teacher will divide the class into four groups for the science activity.",
         "exampleJa":  "先生は理科の活動のために、クラスを四つのグループに分けます。",
         "attemptCount":  0,
@@ -2052,11 +2064,11 @@
         "wrongCount":  0
     },
     {
-        "id":  172,
+        "id":  173,
         "word":  "exist",
         "meaning":  "存在するソンザイ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "4",
         "example":  "Many problems still exist in the world, but people are trying to solve them together.",
         "exampleJa":  "世界にはまだ多くの問題が存在しますが、人々は協力してそれらを解決しようとしています。",
         "attemptCount":  0,
@@ -2064,11 +2076,11 @@
         "wrongCount":  0
     },
     {
-        "id":  173,
+        "id":  174,
         "word":  "express",
         "meaning":  "を表現する、を言い表すヒョウゲンイアラワ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "4",
         "example":  "Art allows people to express feelings that are difficult to explain with words.",
         "exampleJa":  "芸術は、人々が言葉で説明するのが難しい感情を表現することを可能にします。",
         "attemptCount":  0,
@@ -2076,11 +2088,11 @@
         "wrongCount":  0
     },
     {
-        "id":  174,
+        "id":  175,
         "word":  "feed",
         "meaning":  "を養う、に食物を与えるヤシナショクモツアタ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "4",
         "example":  "The volunteers feed the cats every morning and check whether they are healthy.",
         "exampleJa":  "ボランティアは毎朝猫にえさを与え、健康かどうかを確認します。",
         "attemptCount":  0,
@@ -2088,13 +2100,2413 @@
         "wrongCount":  0
     },
     {
-        "id":  175,
+        "id":  176,
         "word":  "fold",
         "meaning":  "を折りたたむ、を折り曲げるオオマ",
         "partOfSpeech":  "動詞ドウシ",
-        "level":  "1",
+        "level":  "4",
         "example":  "Fold the paper carefully along the line to make a neat triangle.",
         "exampleJa":  "きれいな三角形を作るために、線に沿って紙を丁寧に折りなさい。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  177,
+        "word":  "found",
+        "meaning":  "を設立する、を創立するセツリツソウリツ",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "4",
+        "example":  "The two teachers decided to found a small club where students could discuss books after school.",
+        "exampleJa":  "その二人の先生は、生徒が放課後に本について話し合える小さなクラブを設立することにしました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  178,
+        "word":  "fry",
+        "meaning":  "を炒める、を油で揚げるイタアブラア",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "4",
+        "example":  "My brother learned how to fry vegetables without using too much oil or salt.",
+        "exampleJa":  "私の兄は、油や塩を使いすぎずに野菜を炒める方法を学びました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  179,
+        "word":  "handle",
+        "meaning":  "を処理する、を扱うショリアツカ",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "4",
+        "example":  "Good leaders must handle difficult situations calmly, even when many people feel worried or confused.",
+        "exampleJa":  "よいリーダーは、多くの人が不安や混乱を感じているときでも、難しい状況を冷静に処理しなければなりません。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  180,
+        "word":  "judge",
+        "meaning":  "を判断する、を審査するハンダンシンサ",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "4",
+        "example":  "We should not judge people only by their appearance, because everyone has different experiences.",
+        "exampleJa":  "私たちは人を見た目だけで判断すべきではありません。なぜなら、誰もが異なる経験を持っているからです。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  181,
+        "word":  "lead",
+        "meaning":  "(に)つなげる、(に)導く(to)ミチビ",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "4",
+        "example":  "A small mistake can lead to a serious problem if nobody notices it early.",
+        "exampleJa":  "小さな間違いは、誰も早く気づかなければ深刻な問題につながることがあります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  182,
+        "word":  "manage",
+        "meaning":  "を何とかやり遂げるナント",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "4",
+        "example":  "She managed to finish the report on time by making a careful study plan.",
+        "exampleJa":  "彼女は丁寧な学習計画を立てることで、何とか時間どおりにレポートを終えることができました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  183,
+        "word":  "pack",
+        "meaning":  "を荷造り[パッキング・包装]するニヅクホウソウ",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "4",
+        "example":  "Before the school trip, we packed our bags carefully and checked the list twice.",
+        "exampleJa":  "修学旅行の前に、私たちはかばんを丁寧に荷造りし、リストを二回確認しました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  184,
+        "word":  "perform",
+        "meaning":  "を演奏する、を演じるエンソウエン",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "4",
+        "example":  "The students will perform a short play in English at the school festival next month.",
+        "exampleJa":  "生徒たちは来月の文化祭で、英語の短い劇を演じる予定です。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  185,
+        "word":  "pour",
+        "meaning":  "(液体)を注ぐエキタイソソ",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "4",
+        "example":  "Please pour the hot water slowly, because the cup is small and easy to spill.",
+        "exampleJa":  "コップが小さくこぼれやすいので、お湯をゆっくり注いでください。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  186,
+        "word":  "press",
+        "meaning":  "を押す；にアイロンをかけるオ",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "4",
+        "example":  "Press this button for three seconds if you want to turn off the machine safely.",
+        "exampleJa":  "その機械を安全に止めたい場合は、このボタンを三秒間押してください。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  187,
+        "word":  "recommend",
+        "meaning":  "を推薦する、を薦めるスイセンスス",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "4",
+        "example":  "My friend recommended this book because it explains difficult science ideas in simple language.",
+        "exampleJa":  "友人は、難しい科学の考えをやさしい言葉で説明しているので、この本を薦めてくれました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  188,
+        "word":  "settle",
+        "meaning":  "(に)落ち着く、(に)住みつくオツス",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "4",
+        "example":  "After moving several times, the family finally settled in a quiet town near the sea.",
+        "exampleJa":  "何度か引っ越した後、その家族はついに海の近くの静かな町に落ち着きました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  189,
+        "word":  "sew",
+        "meaning":  "を縫い合わせる、を縫いつけるヌアヌ",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "4",
+        "example":  "My grandmother taught me how to sew a button onto my school uniform.",
+        "exampleJa":  "祖母は、学校の制服にボタンを縫いつける方法を私に教えてくれました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  190,
+        "word":  "smell",
+        "meaning":  "(の)匂いがするニオ",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "4",
+        "example":  "The kitchen smelled wonderful when my mother was baking bread early in the morning.",
+        "exampleJa":  "朝早く母がパンを焼いていたとき、台所はすばらしいにおいがしました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  191,
+        "word":  "stare",
+        "meaning":  "(を)じっと見る、(を)凝視するミギョウシ",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "4",
+        "example":  "It is rude to stare at someone for a long time without saying anything.",
+        "exampleJa":  "何も言わずに長い間だれかをじっと見るのは失礼です。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  192,
+        "word":  "starve",
+        "meaning":  "飢える、餓死するウガシ",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "4",
+        "example":  "No child should starve, so communities must support families that need food.",
+        "exampleJa":  "どの子どもも飢えるべきではないので、地域は食べ物を必要とする家庭を支えなければなりません。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  193,
+        "word":  "trust",
+        "meaning":  "を信用する、を信頼するシンヨウシンライ",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "4",
+        "example":  "Parents trust schools to keep their children safe and help them learn every day.",
+        "exampleJa":  "保護者は、学校が子どもたちを安全に守り、毎日学ぶ手助けをしてくれると信頼しています。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  194,
+        "word":  "unite",
+        "meaning":  "団結する、結束するダンケツケッソク",
+        "partOfSpeech":  "動詞ドウシ",
+        "level":  "4",
+        "example":  "People can unite across different cultures when they share the same goal and respect one another.",
+        "exampleJa":  "人々は同じ目標を共有し互いを尊重すると、異なる文化を越えて団結できます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  195,
+        "word":  "air",
+        "meaning":  "空、空中ソラクウチュウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "Clean air is important for our health, especially for children and older people.",
+        "exampleJa":  "きれいな空気は、特に子どもや高齢者の健康にとって大切です。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  196,
+        "word":  "amount",
+        "meaning":  "総量、総計ソウリョウソウケイ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The amount of plastic waste in the ocean has become a serious global problem.",
+        "exampleJa":  "海のプラスチックごみの量は、深刻な地球規模の問題になっています。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  197,
+        "word":  "beat",
+        "meaning":  "打つこと[音]、(心臓の)鼓動ウオトシンゾウコドウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "I could hear the beat of the music even from outside the concert hall.",
+        "exampleJa":  "私はコンサートホールの外からでも、その音楽のビートを聞くことができました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  198,
+        "word":  "center",
+        "meaning":  "中央、中心チュウオウチュウシン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The library stands at the center of the town and is used by many students.",
+        "exampleJa":  "その図書館は町の中心にあり、多くの生徒に利用されています。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  199,
+        "word":  "century",
+        "meaning":  "世紀セキ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "In the twenty-first century, technology has changed the way people communicate and learn.",
+        "exampleJa":  "二十一世紀には、科学技術が人々の伝え合い方や学び方を変えてきました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  200,
+        "word":  "chance",
+        "meaning":  "機会、好機キカイコウキ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "Studying abroad gives students a chance to experience different cultures and improve their English.",
+        "exampleJa":  "留学は、生徒に異なる文化を経験し英語を伸ばす機会を与えます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  201,
+        "word":  "company",
+        "meaning":  "会社カイシャ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The company started as a small shop, but it now sells products around the world.",
+        "exampleJa":  "その会社は小さな店として始まりましたが、今では世界中で商品を販売しています。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  202,
+        "word":  "death",
+        "meaning":  "死、死亡シシボウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The sudden death of the famous writer surprised many people who loved his stories.",
+        "exampleJa":  "その有名な作家の突然の死は、彼の物語を愛していた多くの人々を驚かせました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  203,
+        "word":  "difference",
+        "meaning":  "違い、相違チガソウチガ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "There is a big difference between knowing a word and using it correctly in a sentence.",
+        "exampleJa":  "単語を知っていることと、それを文の中で正しく使うことには大きな違いがあります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  204,
+        "word":  "effect",
+        "meaning":  "影響エイキョウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "Regular exercise has a positive effect on both the body and the mind.",
+        "exampleJa":  "定期的な運動は、体と心の両方によい影響を与えます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  205,
+        "word":  "energy",
+        "meaning":  "エネルギー、活力カツリョク",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "Solar energy is becoming more popular because it can produce electricity without polluting the air.",
+        "exampleJa":  "太陽エネルギーは、空気を汚さずに電気を作れるため、より人気が高まっています。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  206,
+        "word":  "environment",
+        "meaning":  "環境カンキョウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "Protecting the environment is not only a government problem but also a personal responsibility.",
+        "exampleJa":  "環境を守ることは政府だけの問題ではなく、個人の責任でもあります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  207,
+        "word":  "event",
+        "meaning":  "催し、行事モヨオギョウジ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The school event gave students a chance to work together and show their ideas.",
+        "exampleJa":  "その学校行事は、生徒が協力し自分たちの考えを示す機会を与えました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  208,
+        "word":  "experience",
+        "meaning":  "経験ケイケン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "Working as a volunteer was a valuable experience that taught me how to help others.",
+        "exampleJa":  "ボランティアとして働くことは、人を助ける方法を教えてくれた貴重な経験でした。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  209,
+        "word":  "floor",
+        "meaning":  "床；(建物の)階ユカタテモノカイ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The science room is on the third floor, next to the computer room.",
+        "exampleJa":  "理科室は三階にあり、コンピューター室の隣にあります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  210,
+        "word":  "form",
+        "meaning":  "書類；形；種類ショルイカタチシュルイ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "Please fill out this form before you join the summer English program.",
+        "exampleJa":  "夏の英語プログラムに参加する前に、この書類に記入してください。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  211,
+        "word":  "government",
+        "meaning":  "政府、政府機関セイフセイフキカン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The government announced a new plan to support families with young children.",
+        "exampleJa":  "政府は、小さな子どもがいる家庭を支援する新しい計画を発表しました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  212,
+        "word":  "heart",
+        "meaning":  "心臓；心シンゾウココロ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "His kind words touched my heart and helped me feel brave again.",
+        "exampleJa":  "彼の優しい言葉は私の心に響き、もう一度勇気を感じさせてくれました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  213,
+        "word":  "human being",
+        "meaning":  "人、人間ヒトニンゲン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "Every human being has the right to live safely and be treated with respect.",
+        "exampleJa":  "すべての人間には、安全に生き、尊重される権利があります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  214,
+        "word":  "influence",
+        "meaning":  "影響、効果エイキョウコウカ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "Social media has a strong influence on how young people think and choose products.",
+        "exampleJa":  "ソーシャルメディアは、若者の考え方や商品選びに強い影響を与えています。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  215,
+        "word":  "information",
+        "meaning":  "(～についての)情報、知識(on,about)ジョウホウチシキ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "We need reliable information before we decide what to do during an emergency.",
+        "exampleJa":  "緊急時に何をするか決める前に、私たちは信頼できる情報を必要とします。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  216,
+        "word":  "island",
+        "meaning":  "島シマ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The small island is famous for its beautiful beaches and clear blue water.",
+        "exampleJa":  "その小さな島は、美しい浜辺と澄んだ青い水で有名です。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  217,
+        "word":  "landmine",
+        "meaning":  "地雷ジライ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "People must never touch a landmine because it can explode and seriously hurt anyone nearby.",
+        "exampleJa":  "人々は地雷に決して触れてはいけません。爆発して近くの人をひどく傷つける可能性があるからです。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  218,
+        "word":  "law",
+        "meaning":  "法律、法則ホウリツホウソク",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The new law was created to protect children from dangerous online content.",
+        "exampleJa":  "その新しい法律は、子どもたちを危険なオンライン内容から守るために作られました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  219,
+        "word":  "leader",
+        "meaning":  "リーダー、指導者シドウシャ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "A good leader listens to different opinions before making an important decision.",
+        "exampleJa":  "よいリーダーは、重要な決定をする前に異なる意見に耳を傾けます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  220,
+        "word":  "map",
+        "meaning":  "地図チズ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "We used a map to find the fastest way to the old castle.",
+        "exampleJa":  "私たちはその古い城への最も速い道を見つけるために地図を使いました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  221,
+        "word":  "memory",
+        "meaning":  "思い出；記憶オモデキオク",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "This song brings back a happy memory of my first school trip.",
+        "exampleJa":  "この歌は、私の初めての修学旅行の楽しい思い出をよみがえらせます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  222,
+        "word":  "mind",
+        "meaning":  "考え、意見；心カンガイケンココロ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "Reading different books can open your mind and help you understand other people.",
+        "exampleJa":  "さまざまな本を読むことは、考えを広げ、他の人を理解する助けになります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  223,
+        "word":  "moment",
+        "meaning":  "ちょっとの間、瞬間アイダシュンカン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "At that moment, I realized how important it was to keep trying.",
+        "exampleJa":  "その瞬間、私は努力し続けることがどれほど大切かに気づきました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  224,
+        "word":  "newspaper",
+        "meaning":  "新聞、新聞社シンブンシンブンシャ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The local newspaper reported that the new library would open next spring.",
+        "exampleJa":  "地元の新聞は、新しい図書館が来年の春に開館すると報じました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  225,
+        "word":  "notice",
+        "meaning":  "注目；通知チュウモクツウチ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The teacher put a notice on the door about tomorrow\u0027s schedule change.",
+        "exampleJa":  "先生は明日の予定変更についての通知をドアに貼りました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  226,
+        "word":  "peace",
+        "meaning":  "平和、治安ヘイワチアン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "Many people hope for peace because war destroys lives, homes, and communities.",
+        "exampleJa":  "戦争は命や家、地域社会を壊すため、多くの人々が平和を望んでいます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  227,
+        "word":  "person",
+        "meaning":  "人ヒト",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "A kind person can make others feel safe, even in a difficult situation.",
+        "exampleJa":  "親切な人は、難しい状況でも他の人を安心させることができます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  228,
+        "word":  "population",
+        "meaning":  "人口、住民数ジンコウジュウミンスウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The population of the town is decreasing because many young people move to big cities.",
+        "exampleJa":  "多くの若者が大都市へ移るため、その町の人口は減少しています。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  229,
+        "word":  "power",
+        "meaning":  "力、努力、権力チカラドリョクケンリョク",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "Education gives people the power to choose their future and improve society.",
+        "exampleJa":  "教育は、人々に未来を選び社会をよくする力を与えます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  230,
+        "word":  "program",
+        "meaning":  "日程、計画、予定ニッテイケイカクヨテイ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The exchange program allows students to stay with families in another country.",
+        "exampleJa":  "その交換プログラムは、生徒が他の国の家庭に滞在することを可能にします。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  231,
+        "word":  "programmer",
+        "meaning":  "プログラマー",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The programmer fixed the problem so that the app could run more smoothly.",
+        "exampleJa":  "そのプログラマーは、アプリがよりなめらかに動くように問題を修正しました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  232,
+        "word":  "reason",
+        "meaning":  "理由、根拠リユウコンキョ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "One reason for learning English is that it helps us communicate with people worldwide.",
+        "exampleJa":  "英語を学ぶ理由の一つは、世界中の人々と交流する助けになるからです。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  233,
+        "word":  "report",
+        "meaning":  "レポート、報告書ホウコクショ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "Our group wrote a report about how to reduce food waste at school.",
+        "exampleJa":  "私たちの班は、学校で食品ロスを減らす方法についてのレポートを書きました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  234,
+        "word":  "reporter",
+        "meaning":  "レポーター、(報道)記者、報告者ホウドウキシャホウコクシャ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The reporter asked clear questions to understand what had happened at the scene.",
+        "exampleJa":  "その記者は、現場で何が起こったのか理解するために明確な質問をしました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  235,
+        "word":  "result",
+        "meaning":  "結果、成果ケッカセイカ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The result of the survey showed that many students wanted more time to read.",
+        "exampleJa":  "その調査の結果は、多くの生徒が読書の時間をもっと欲しがっていることを示しました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  236,
+        "word":  "side",
+        "meaning":  "側、側面、一方の側ガワガワメンイッポウガワ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "Please write your name on the right side of the answer sheet.",
+        "exampleJa":  "解答用紙の右側に名前を書いてください。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  237,
+        "word":  "society",
+        "meaning":  "社会、団体シャカイダンタイ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "A fair society gives every person a chance to learn and live safely.",
+        "exampleJa":  "公平な社会は、すべての人に学び安全に暮らす機会を与えます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  238,
+        "word":  "soldier",
+        "meaning":  "軍人、兵士グンジンヘイシ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The young soldier wrote letters to his family whenever he had free time.",
+        "exampleJa":  "その若い兵士は、自由な時間があるときはいつでも家族に手紙を書きました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  239,
+        "word":  "step",
+        "meaning":  "一歩、歩み、(階)段イッポアユカイダン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The first step toward solving the problem is to understand why it happened.",
+        "exampleJa":  "その問題を解決するための第一歩は、なぜそれが起きたのか理解することです。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  240,
+        "word":  "support",
+        "meaning":  "支援、支えシエンササ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "Community support is necessary when families are facing serious problems after a disaster.",
+        "exampleJa":  "災害の後に家庭が深刻な問題に直面しているとき、地域の支援が必要です。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  241,
+        "word":  "system",
+        "meaning":  "方式、制度、システムホウシキセイド",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "The school introduced a new system for borrowing books with student cards.",
+        "exampleJa":  "その学校は、生徒カードで本を借りる新しいシステムを導入しました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  242,
+        "word":  "technology",
+        "meaning":  "科学技術カガクギジュツ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "Modern technology allows doctors to find diseases earlier and treat patients more effectively.",
+        "exampleJa":  "現代の科学技術は、医師が病気をより早く見つけ、患者をより効果的に治療することを可能にします。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  243,
+        "word":  "top",
+        "meaning":  "頂上、最上部チョウジョウサイジョウブ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "We finally reached the top of the mountain after walking for three hours.",
+        "exampleJa":  "私たちは三時間歩いた後、ついに山の頂上に着きました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  244,
+        "word":  "voice",
+        "meaning":  "声コエ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "Her calm voice helped the children feel safe during the emergency drill.",
+        "exampleJa":  "彼女の落ち着いた声は、避難訓練の間、子どもたちを安心させました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  245,
+        "word":  "wife",
+        "meaning":  "妻ツマ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "His wife works at a hospital and often helps people in the community.",
+        "exampleJa":  "彼の妻は病院で働いていて、よく地域の人々を助けています。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  246,
+        "word":  "will",
+        "meaning":  "遺言、意志ユイゴンイシ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "1",
+        "example":  "A strong will can help people continue working toward a difficult goal.",
+        "exampleJa":  "強い意志は、人々が難しい目標に向かって努力を続ける助けになります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  247,
+        "word":  "ability",
+        "meaning":  "能力、手段ノウリョクシュダン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The ability to listen carefully is important when people work in a team.",
+        "exampleJa":  "注意深く聞く能力は、人々がチームで働くときに大切です。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  248,
+        "word":  "accident",
+        "meaning":  "事故、思いがけぬ出来事ジコオモデキゴト",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The accident happened because the driver was looking at his phone.",
+        "exampleJa":  "その事故は、運転手が携帯電話を見ていたために起こりました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  249,
+        "word":  "ancestor",
+        "meaning":  "先祖、祖先センゾソセン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "My ancestor moved to this town more than one hundred years ago.",
+        "exampleJa":  "私の先祖は、百年以上前にこの町へ移り住みました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  250,
+        "word":  "attention",
+        "meaning":  "注意チュウイ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "Please pay attention to the speaker, because the next information is important.",
+        "exampleJa":  "次の情報は重要なので、話している人に注意を向けてください。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  251,
+        "word":  "audience",
+        "meaning":  "観客カンキャク",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The audience listened quietly while the student explained her research project.",
+        "exampleJa":  "その生徒が研究プロジェクトを説明している間、観客は静かに聞いていました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  252,
+        "word":  "base",
+        "meaning":  "根拠、土台コンキョドダイ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "Trust is the base of a good friendship and a healthy classroom community.",
+        "exampleJa":  "信頼は、よい友情と健全な教室の共同体の土台です。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  253,
+        "word":  "basis",
+        "meaning":  "基盤、根拠キバンコンキョ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The decision was made on the basis of facts, not personal feelings.",
+        "exampleJa":  "その決定は、個人的な感情ではなく事実に基づいて行われました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  254,
+        "word":  "business",
+        "meaning":  "事業、商売ジギョウショウバイ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "Her family runs a small business that sells handmade bread and cakes.",
+        "exampleJa":  "彼女の家族は、手作りのパンやケーキを売る小さな事業を営んでいます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  255,
+        "word":  "camp",
+        "meaning":  "キャンプ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "At the summer camp, students learned how to cook outside and work together.",
+        "exampleJa":  "夏のキャンプで、生徒たちは外で料理をする方法と協力する方法を学びました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  256,
+        "word":  "case",
+        "meaning":  "場合、状況バアイジョウキョウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "In this case, we should listen to both sides before choosing the best solution.",
+        "exampleJa":  "この場合、最善の解決策を選ぶ前に、両方の側の話を聞くべきです。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  257,
+        "word":  "case",
+        "meaning":  "ケース、入れ物イモノ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "She put her glasses in a hard case so they would not break in her bag.",
+        "exampleJa":  "彼女はかばんの中で壊れないように、眼鏡を硬いケースに入れました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  258,
+        "word":  "challenge",
+        "meaning":  "難問、難関；挑戦ナンモンナンカンチョウセン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "Learning a new language is a challenge, but it becomes easier with regular practice.",
+        "exampleJa":  "新しい言語を学ぶことは難しい挑戦ですが、定期的な練習でより簡単になります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  259,
+        "word":  "character",
+        "meaning":  "性格、人格セイカクジンカク",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The main character in the story learns the importance of honesty and courage.",
+        "exampleJa":  "その物語の主人公は、正直さと勇気の大切さを学びます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  260,
+        "word":  "college",
+        "meaning":  "(単科)大学タンカダイガク",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "After finishing high school, my sister plans to study science at college.",
+        "exampleJa":  "高校を卒業した後、私の姉は大学で科学を学ぶ予定です。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  261,
+        "word":  "condition",
+        "meaning":  "状態、状況ジョウタイジョウキョウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The old bridge is in poor condition, so the city must repair it soon.",
+        "exampleJa":  "その古い橋は状態が悪いので、市はすぐに修理しなければなりません。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  262,
+        "word":  "control",
+        "meaning":  "管理カンリ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "Good control of your time helps you finish homework and still enjoy free time.",
+        "exampleJa":  "時間をうまく管理することは、宿題を終え、それでも自由時間を楽しむ助けになります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  263,
+        "word":  "danger",
+        "meaning":  "危険キケン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "Children must understand the danger of crossing the street while looking at a phone.",
+        "exampleJa":  "子どもたちは、携帯電話を見ながら道路を渡る危険を理解しなければなりません。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  264,
+        "word":  "desert",
+        "meaning":  "砂漠サバク",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "Some animals can live in the desert because they save water and avoid the hottest part of the day.",
+        "exampleJa":  "水を蓄え、一日の最も暑い時間帯を避けるため、砂漠で生きられる動物もいます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  265,
+        "word":  "effort",
+        "meaning":  "努力、骨折りドリョクホネオ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "Her effort to practice every day finally helped her win the speech contest.",
+        "exampleJa":  "毎日練習するという彼女の努力は、ついにスピーチコンテストで優勝する助けになりました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  266,
+        "word":  "elementary school",
+        "meaning":  "小学校ショウガッコウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "My elementary school has a small garden where children grow vegetables together.",
+        "exampleJa":  "私の小学校には、子どもたちが一緒に野菜を育てる小さな庭があります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  267,
+        "word":  "flag",
+        "meaning":  "旗ハタ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The students raised the flag before the ceremony began in the schoolyard.",
+        "exampleJa":  "式が校庭で始まる前に、生徒たちは旗を掲げました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  268,
+        "word":  "freedom",
+        "meaning":  "自由ジユウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "Freedom of speech is important, but we should use words responsibly.",
+        "exampleJa":  "言論の自由は大切ですが、私たちは責任をもって言葉を使うべきです。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  269,
+        "word":  "glass",
+        "meaning":  "コップ1杯；コップ；ガラスパイ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "He poured a glass of water for the guest who had walked a long way.",
+        "exampleJa":  "彼は長い道のりを歩いてきた客のために、コップ一杯の水を注ぎました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  270,
+        "word":  "goal",
+        "meaning":  "目標、決勝点、ゴールモクヒョウケッショウテン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "My goal this year is to read one English book every month.",
+        "exampleJa":  "今年の私の目標は、毎月一冊英語の本を読むことです。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  271,
+        "word":  "grass",
+        "meaning":  "芝生、草地シバフクサチ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The children sat on the grass and ate lunch under the big tree.",
+        "exampleJa":  "子どもたちは大きな木の下で芝生に座り、昼食を食べました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  272,
+        "word":  "junior high",
+        "meaning":  "中学校チュウガッコウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "Many students join a club when they enter junior high for the first time.",
+        "exampleJa":  "多くの生徒は、初めて中学校に入ると部活動に参加します。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  273,
+        "word":  "matter",
+        "meaning":  "問題、事柄モンダイジガラ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "This matter is important, so we should discuss it carefully before making a decision.",
+        "exampleJa":  "この問題は重要なので、決定をする前に注意深く話し合うべきです。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  274,
+        "word":  "meaning",
+        "meaning":  "真意、意味シンイイミ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The meaning of a word can change depending on how it is used in a sentence.",
+        "exampleJa":  "単語の意味は、文の中でどのように使われるかによって変わることがあります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  275,
+        "word":  "meat",
+        "meaning":  "肉ニク",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "Eating too much meat every day may affect your health, so balance is important.",
+        "exampleJa":  "毎日肉を食べすぎると健康に影響することがあるので、バランスが大切です。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  276,
+        "word":  "medicine",
+        "meaning":  "薬；医学クスリイガク",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "This medicine should be taken after meals, and you must follow the doctor’s instructions carefully.",
+        "exampleJa":  "この薬は食後に飲むべきで、医師の指示に注意深く従わなければなりません。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  277,
+        "word":  "mine",
+        "meaning":  "鉱山、鉱業所コウザンコウギョウジョ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The old mine was closed because it was too dangerous for workers to enter safely.",
+        "exampleJa":  "その古い鉱山は、労働者が安全に入るには危険すぎたため閉鎖されました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  278,
+        "word":  "movement",
+        "meaning":  "動き、動くことウゴウゴ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The movement of people from rural areas to cities has changed many local communities.",
+        "exampleJa":  "農村部から都市部への人々の移動は、多くの地域社会を変えてきました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  279,
+        "word":  "office",
+        "meaning":  "会社、事務所ジムショ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "Our office is small, but everyone works together to solve problems quickly.",
+        "exampleJa":  "私たちの事務所は小さいですが、全員が協力して問題を素早く解決しています。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  280,
+        "word":  "pain",
+        "meaning":  "痛み、苦痛イタクツウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "She felt a sharp pain in her knee after running for a long time.",
+        "exampleJa":  "彼女は長い時間走ったあと、ひざに鋭い痛みを感じました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  281,
+        "word":  "period",
+        "meaning":  "期間、年間キカンネンカン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "During this period, students should review basic grammar and practice reading short passages every day.",
+        "exampleJa":  "この期間中、生徒は基本文法を復習し、毎日短い文章を読む練習をすべきです。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  282,
+        "word":  "present",
+        "meaning":  "贈り物、プレゼントオクモノ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "He gave his mother a present to thank her for supporting him every day.",
+        "exampleJa":  "彼は毎日支えてくれる母に感謝するため、プレゼントを渡しました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  283,
+        "word":  "race¹",
+        "meaning":  "レース、競争キョウソウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The school race was exciting because the two runners reached the goal almost together.",
+        "exampleJa":  "その学校のレースは、二人の走者がほとんど同時にゴールしたのでわくわくするものでした。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  284,
+        "word":  "race²",
+        "meaning":  "民族、人種、種族ミンゾクジンシュシュゾク",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "People of every race should be respected equally in school, work, and society.",
+        "exampleJa":  "学校、仕事、社会では、すべての人種の人々が平等に尊重されるべきです。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  285,
+        "word":  "record",
+        "meaning":  "記録、録音キロクロクオン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The teacher kept a record of each student’s progress during the reading project.",
+        "exampleJa":  "先生は読書プロジェクトの間、それぞれの生徒の進歩の記録をつけました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  286,
+        "word":  "research",
+        "meaning":  "研究、調査ケンキュウチョウサ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "Careful research is necessary before we decide whether a new plan will really work.",
+        "exampleJa":  "新しい計画が本当にうまくいくか判断する前に、注意深い調査が必要です。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  287,
+        "word":  "role",
+        "meaning":  "役目、役割、役ヤクメヤクワリヤク",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "Parents play an important role in helping children build good study habits at home.",
+        "exampleJa":  "保護者は、子どもが家庭でよい学習習慣を身につけるのを助ける重要な役割を果たします。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  288,
+        "word":  "rule",
+        "meaning":  "規則、支配キソクシハイ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "Every club has a rule that members must follow to keep activities safe and fair.",
+        "exampleJa":  "どのクラブにも、活動を安全で公平に保つために会員が守らなければならない規則があります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  289,
+        "word":  "sense",
+        "meaning":  "意味、感覚イミカンカク",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "A good sense of humor can help people relax even in a difficult situation.",
+        "exampleJa":  "よいユーモアの感覚は、難しい状況でも人々をリラックスさせる助けになります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  290,
+        "word":  "shape",
+        "meaning":  "形、状態、調子カタチジョウタイチョウシ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The shape of the roof helps the house stay cool during the hot summer.",
+        "exampleJa":  "屋根の形は、その家が暑い夏の間涼しく保たれる助けになります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  291,
+        "word":  "shock",
+        "meaning":  "衝撃、ショックショウゲキ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The news of the sudden accident was a great shock to everyone in the town.",
+        "exampleJa":  "突然の事故の知らせは、その町のすべての人にとって大きな衝撃でした。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  292,
+        "word":  "site",
+        "meaning":  "跡、用地、遺跡アトヨウチイセキ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The old castle site attracts many visitors who are interested in local history.",
+        "exampleJa":  "その古い城跡は、地域の歴史に興味がある多くの訪問者を引きつけます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  293,
+        "word":  "skin",
+        "meaning":  "皮膚、皮、肌ヒフカワハダ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "You should protect your skin from strong sunlight when you stay outside for many hours.",
+        "exampleJa":  "長時間外にいるときは、強い日差しから肌を守るべきです。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  294,
+        "word":  "speaker",
+        "meaning":  "演説者、話す人、講演者エンゼツシャハナヒトコウエンシャ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The speaker used simple examples so that everyone in the audience could understand his message.",
+        "exampleJa":  "その講演者は、聴衆全員が彼のメッセージを理解できるように簡単な例を使いました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  295,
+        "word":  "style",
+        "meaning":  "型、様式カタヨウシキ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "Her writing style is simple but powerful, so many young readers enjoy her books.",
+        "exampleJa":  "彼女の文体は簡潔ですが力強いので、多くの若い読者が彼女の本を楽しんでいます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  296,
+        "word":  "success",
+        "meaning":  "成功(者)セイコウシャ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "His success came from years of practice, patience, and support from people around him.",
+        "exampleJa":  "彼の成功は、何年もの練習、忍耐、そして周りの人々の支えから生まれました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  297,
+        "word":  "tear",
+        "meaning":  "涙ナミダ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "A tear ran down her face when she heard the beautiful song.",
+        "exampleJa":  "その美しい歌を聞いたとき、彼女の顔に涙が流れました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  298,
+        "word":  "trouble",
+        "meaning":  "面倒；骨折りメンドウホネオ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "If you have trouble understanding the lesson, ask your teacher before the test.",
+        "exampleJa":  "授業を理解するのに困ったら、テストの前に先生に質問しなさい。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  299,
+        "word":  "university",
+        "meaning":  "(総合)大学ソウゴウダイガク",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "Many students move to another city when they enter university after high school.",
+        "exampleJa":  "多くの生徒は高校卒業後に大学へ進学するとき、別の都市へ引っ越します。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  300,
+        "word":  "waste",
+        "meaning":  "無駄；くずムダ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "Food waste can be reduced if people buy only what they really need.",
+        "exampleJa":  "人々が本当に必要なものだけを買えば、食品の無駄は減らすことができます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  301,
+        "word":  "wave",
+        "meaning":  "波、ウェーブナミ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "A huge wave hit the rocks, and the sound surprised everyone on the beach.",
+        "exampleJa":  "大きな波が岩にぶつかり、その音に浜辺の全員が驚きました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  302,
+        "word":  "wheel",
+        "meaning":  "ハンドル；車輪シャリン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The wheel of the bicycle was damaged, so he could not ride it home.",
+        "exampleJa":  "自転車の車輪が壊れていたので、彼はそれに乗って家に帰ることができませんでした。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  303,
+        "word":  "wheelchair",
+        "meaning":  "車いすクルマ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "The station has ramps so that people using a wheelchair can move more easily.",
+        "exampleJa":  "その駅には、車いすを使う人がより簡単に移動できるようにスロープがあります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  304,
+        "word":  "wood",
+        "meaning":  "木材；(-s)森モクザイモリ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "This table is made of wood, so it gives the room a warm feeling.",
+        "exampleJa":  "この机は木材でできているので、部屋に温かい雰囲気を与えます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  305,
+        "word":  "worker",
+        "meaning":  "働く人、労働者ハタラヒトロウドウシャ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "2",
+        "example":  "A skilled worker checked the machine carefully before the factory opened in the morning.",
+        "exampleJa":  "熟練した労働者が、朝に工場が開く前にその機械を注意深く点検しました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  306,
+        "word":  "advantage",
+        "meaning":  "長所、利点チョウショリテン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "One advantage of studying online is that students can review lessons at their own pace.",
+        "exampleJa":  "オンラインで学ぶ利点の一つは、生徒が自分のペースで授業を復習できることです。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  307,
+        "word":  "airport",
+        "meaning":  "空港クウコウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The airport was crowded because many families were traveling during the winter vacation.",
+        "exampleJa":  "冬休み中に多くの家族が旅行していたので、その空港は混雑していました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  308,
+        "word":  "average",
+        "meaning":  "平均、平均値ヘイキンヘイキンチ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The average temperature in this city has become higher over the last ten years.",
+        "exampleJa":  "この都市の平均気温は、過去10年間で高くなっています。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  309,
+        "word":  "blood",
+        "meaning":  "血、血液チケツエキ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "Doctors need blood for operations, so blood donation can save many lives.",
+        "exampleJa":  "医師は手術に血液を必要とするので、献血は多くの命を救うことができます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  310,
+        "word":  "bomb",
+        "meaning":  "爆弾バクダン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The police found an old bomb and asked people to leave the area immediately.",
+        "exampleJa":  "警察は古い爆弾を見つけ、人々にすぐその地域から離れるよう求めました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  311,
+        "word":  "brain",
+        "meaning":  "脳、頭脳ノウズノウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The human brain controls the body and helps us think, remember, and learn.",
+        "exampleJa":  "人間の脳は体を制御し、私たちが考え、記憶し、学ぶのを助けます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  312,
+        "word":  "ceremony",
+        "meaning":  "式、式典シキシキテン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The opening ceremony began with music, speeches, and a short welcome message.",
+        "exampleJa":  "開会式は、音楽、スピーチ、短い歓迎の言葉で始まりました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  314,
+        "word":  "childhood",
+        "meaning":  "子供時代コドモジダイ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "My childhood memories include playing outside with friends until the sun went down.",
+        "exampleJa":  "私の子ども時代の思い出には、日が沈むまで友達と外で遊んだことが含まれています。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  315,
+        "word":  "choice",
+        "meaning":  "選ぶこと、選択エラセンタク",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "Having a choice makes students feel more responsible for their own learning.",
+        "exampleJa":  "選択肢があると、生徒は自分の学習により責任を感じます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  316,
+        "word":  "clerk",
+        "meaning":  "店員テンイン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The clerk answered my question politely and helped me find the right book.",
+        "exampleJa":  "その店員は私の質問に丁寧に答え、正しい本を見つけるのを助けてくれました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  317,
+        "word":  "courage",
+        "meaning":  "勇気ユウキ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "It takes courage to admit a mistake and apologize honestly to another person.",
+        "exampleJa":  "間違いを認め、相手に正直に謝るには勇気が必要です。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  318,
+        "word":  "crop",
+        "meaning":  "農作物、収穫高ノウサクブツシュウカクダカ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "This year’s rice crop was damaged by heavy rain during the summer.",
+        "exampleJa":  "今年の米の収穫は、夏の大雨によって被害を受けました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  319,
+        "word":  "damage",
+        "meaning":  "損傷、損害ソンキズソンガイ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The storm caused serious damage to houses, roads, and many small farms.",
+        "exampleJa":  "その嵐は家、道路、多くの小さな農場に深刻な損害を与えました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  320,
+        "word":  "difficulty",
+        "meaning":  "困難、難しさコンナンムズカ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The main difficulty is not the grammar but finding enough time to practice.",
+        "exampleJa":  "主な困難は文法ではなく、練習する十分な時間を見つけることです。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  321,
+        "word":  "direction",
+        "meaning":  "方向、方面ホウコウホウメン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "Please walk in this direction until you see the library on your left.",
+        "exampleJa":  "左側に図書館が見えるまで、この方向に歩いてください。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  322,
+        "word":  "disease",
+        "meaning":  "病気、疾患ビョウキシッカン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "Early treatment can help prevent a disease from becoming more serious.",
+        "exampleJa":  "早期の治療は、病気がより深刻になるのを防ぐ助けになります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  323,
+        "word":  "dish",
+        "meaning":  "(皿に盛った)料理；皿サラモリョウリサラ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "My favorite dish is curry because it is warm, filling, and easy to share.",
+        "exampleJa":  "私の好きな料理はカレーです。温かく、お腹にたまり、分けやすいからです。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  324,
+        "word":  "distance",
+        "meaning":  "距離キョリ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The distance between the two towns is short, but the road is very narrow.",
+        "exampleJa":  "その二つの町の間の距離は短いですが、道はとても狭いです。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  325,
+        "word":  "dress",
+        "meaning":  "ドレス、衣装イショウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "She wore a simple blue dress for the school concert last weekend.",
+        "exampleJa":  "彼女は先週末の学校のコンサートで、シンプルな青いドレスを着ました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  326,
+        "word":  "farmer",
+        "meaning":  "農場主、農場経営者ノウジョウシュノウジョウケイエイシャ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The farmer grows vegetables without using too many chemicals on his fields.",
+        "exampleJa":  "その農場主は、自分の畑で化学薬品を使いすぎずに野菜を育てています。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  327,
+        "word":  "generation",
+        "meaning":  "世代(の人々)、同世代の人々セダイヒトビトドウセダイヒトビト",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "Each generation has different ideas about technology, work, and communication.",
+        "exampleJa":  "それぞれの世代は、技術、仕事、コミュニケーションについて異なる考えを持っています。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  328,
+        "word":  "gift",
+        "meaning":  "プレゼント、贈り物オクモノ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "Her musical gift was clear when she played the piano beautifully at age six.",
+        "exampleJa":  "彼女の音楽の才能は、6歳でピアノを美しく弾いたときにはっきりしていました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  329,
+        "word":  "hero",
+        "meaning":  "ヒーロー、英雄、(男性の)主人公エイユウダンセイシュジンコウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The local hero helped many people during the flood and became famous in the town.",
+        "exampleJa":  "その地元の英雄は洪水の間に多くの人を助け、町で有名になりました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  330,
+        "word":  "hole",
+        "meaning":  "穴アナ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "There is a small hole in my sock, so I need to buy a new pair.",
+        "exampleJa":  "私の靴下には小さな穴があるので、新しいものを買う必要があります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  331,
+        "word":  "hurry",
+        "meaning":  "急ぐこと、急ぐ必要イソイソヒツヨウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "In my hurry, I forgot my notebook on the train this morning.",
+        "exampleJa":  "急いでいたため、私は今朝電車にノートを忘れてしまいました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  332,
+        "word":  "image",
+        "meaning":  "印象、画像インショウガゾウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The photo created a strong image of peace and hope in many people’s minds.",
+        "exampleJa":  "その写真は、多くの人の心に平和と希望の強い印象を生み出しました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  333,
+        "word":  "joy",
+        "meaning":  "喜び、うれしさヨロコ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The children shouted with joy when their team won the final game.",
+        "exampleJa":  "自分たちのチームが決勝戦に勝ったとき、子どもたちは喜びで叫びました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  334,
+        "word":  "meal",
+        "meaning":  "食事ショクジ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "Eating a healthy meal in the morning helps students concentrate during class.",
+        "exampleJa":  "朝に健康的な食事をとることは、生徒が授業中に集中する助けになります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  335,
+        "word":  "measure",
+        "meaning":  "目安、ものさし、尺度モクアンシャクド",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The test is one measure of progress, but it does not show everything students can do.",
+        "exampleJa":  "そのテストは進歩の一つの目安ですが、生徒ができることすべてを示すわけではありません。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  336,
+        "word":  "meeting",
+        "meaning":  "会議、会合カイギカイゴウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "We will have a meeting tomorrow to discuss how to improve the school event.",
+        "exampleJa":  "私たちは学校行事を改善する方法について話し合うため、明日会議を開きます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  337,
+        "word":  "middle",
+        "meaning":  "中央、真ん中チュウオウマナカ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "He stood in the middle of the room and explained the rules to everyone.",
+        "exampleJa":  "彼は部屋の中央に立ち、全員に規則を説明しました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  338,
+        "word":  "mistake",
+        "meaning":  "間違い、誤りマチガアヤマ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "Making a mistake is not a failure if you learn something from it.",
+        "exampleJa":  "間違いをすることは、そこから何かを学ぶなら失敗ではありません。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  339,
+        "word":  "object",
+        "meaning":  "対象、物タイショウモノ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The object in the sky was too far away for us to see clearly.",
+        "exampleJa":  "空のその物体は遠すぎて、私たちにははっきり見ることができませんでした。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  340,
+        "word":  "pattern",
+        "meaning":  "パターン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "This pattern appears in many traditional designs from different parts of Japan.",
+        "exampleJa":  "この模様は、日本のさまざまな地域の多くの伝統的なデザインに見られます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  341,
+        "word":  "photo",
+        "meaning":  "写真、フォトシャシン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The photo shows students cleaning the beach after the festival ended.",
+        "exampleJa":  "その写真は、祭りが終わった後に浜辺を掃除している生徒たちを写しています。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  342,
+        "word":  "photograph",
+        "meaning":  "写真シャシン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "This photograph reminds me of the trip we took with our family last year.",
+        "exampleJa":  "この写真を見ると、去年家族で行った旅行を思い出します。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  343,
+        "word":  "photography",
+        "meaning":  "写真撮影、写真術シャシンサツエイシャシンジュツ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "Photography can help people notice small details they usually pass without seeing.",
+        "exampleJa":  "写真撮影は、人々が普段見過ごしている小さな細部に気づく助けになります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  344,
+        "word":  "planet",
+        "meaning":  "惑星ワクセイ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "Mars is a planet that many scientists study because it may have once had water.",
+        "exampleJa":  "火星は、かつて水があった可能性があるため、多くの科学者が研究する惑星です。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  345,
+        "word":  "poem",
+        "meaning":  "詩シ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The poem describes the quiet beauty of a town after the rain.",
+        "exampleJa":  "その詩は、雨の後の町の静かな美しさを描いています。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  346,
+        "word":  "prize",
+        "meaning":  "賞、賞与ショウショウヨ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "She won first prize in the English speech contest after weeks of practice.",
+        "exampleJa":  "彼女は何週間もの練習の後、英語スピーチコンテストで一等賞を取りました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  347,
+        "word":  "product",
+        "meaning":  "製品、作物、生産物セイヒンサクブツセイサンブツ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "This product is popular because it is easy to use and does not cost much.",
+        "exampleJa":  "この製品は使いやすく、あまり費用がかからないので人気があります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  348,
+        "word":  "purpose",
+        "meaning":  "目的、意図モクテキイト",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The purpose of this survey is to understand what students need for better learning.",
+        "exampleJa":  "この調査の目的は、生徒がよりよく学ぶために何を必要としているか理解することです。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  349,
+        "word":  "reply",
+        "meaning":  "返事、解答ヘンジカイトウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "I sent a reply to my friend as soon as I read his message.",
+        "exampleJa":  "私は友達のメッセージを読むとすぐに返事を送りました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  350,
+        "word":  "scene",
+        "meaning":  "現場、場面、眺めゲンババメンナガ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The final scene of the movie was quiet, but it stayed in my mind.",
+        "exampleJa":  "その映画の最後の場面は静かでしたが、私の心に残りました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  351,
+        "word":  "situation",
+        "meaning":  "立場、状況タチバジョウキョウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "In this situation, we should listen to both sides before deciding what to do.",
+        "exampleJa":  "この状況では、どうするか決める前に両方の側の話を聞くべきです。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  352,
+        "word":  "species",
+        "meaning":  "《生物》種、種類、人類セイブツタネシュルイジンルイ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "This species of bird can live in cold areas and travel long distances.",
+        "exampleJa":  "この鳥の種は寒い地域で生きることができ、長い距離を移動します。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  353,
+        "word":  "state",
+        "meaning":  "状態、ありさま；国家；州コッカシュウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The state of the old building became worse after the heavy rain.",
+        "exampleJa":  "その古い建物の状態は、大雨の後にさらに悪くなりました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  354,
+        "word":  "symbol",
+        "meaning":  "象徴、シンボル、記号ショウチョウキゴウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The dove is often used as a symbol of peace in many countries.",
+        "exampleJa":  "ハトは多くの国で平和の象徴としてよく使われます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  355,
+        "word":  "taste",
+        "meaning":  "好み、味コノアジ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "His taste in music is different from mine, but we both enjoy concerts.",
+        "exampleJa":  "彼の音楽の好みは私のものと違いますが、私たちはどちらもコンサートを楽しみます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  356,
+        "word":  "telephone",
+        "meaning":  "電話デンワ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The telephone rang during dinner, but nobody wanted to answer it.",
+        "exampleJa":  "夕食中に電話が鳴りましたが、誰もそれに出たがりませんでした。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  357,
+        "word":  "theory",
+        "meaning":  "理論、学説リロンガクセツ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "This theory sounds interesting, but we need more evidence before accepting it.",
+        "exampleJa":  "この理論は面白そうですが、それを受け入れる前にもっと証拠が必要です。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  358,
+        "word":  "traffic",
+        "meaning":  "交通、通行コウツウツウコウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "Heavy traffic made many students late for the morning exam.",
+        "exampleJa":  "激しい交通渋滞のため、多くの生徒が朝の試験に遅れました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  359,
+        "word":  "wall",
+        "meaning":  "壁カベ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "3",
+        "example":  "The wall around the garden keeps animals from eating the vegetables.",
+        "exampleJa":  "庭の周りの壁は、動物が野菜を食べるのを防いでいます。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  360,
+        "word":  "action",
+        "meaning":  "行動コウドウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "4",
+        "example":  "Quick action by the neighbors helped prevent the fire from spreading.",
+        "exampleJa":  "近所の人たちの素早い行動が、火事の広がりを防ぐ助けになりました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  361,
+        "word":  "actor",
+        "meaning":  "俳優ハイユウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "4",
+        "example":  "The young actor became famous after appearing in a popular television drama.",
+        "exampleJa":  "その若い俳優は、人気のテレビドラマに出演した後で有名になりました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  362,
+        "word":  "advice",
+        "meaning":  "助言タス",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "4",
+        "example":  "Her advice helped me choose a book that was interesting but not too difficult.",
+        "exampleJa":  "彼女の助言は、面白いけれど難しすぎない本を選ぶ助けになりました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  363,
+        "word":  "artist",
+        "meaning":  "画家、芸術家ガカゲイジュツカ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "4",
+        "example":  "The artist painted scenes from everyday life in bright and gentle colors.",
+        "exampleJa":  "その芸術家は、日常生活の場面を明るくやさしい色で描きました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  364,
+        "word":  "bank",
+        "meaning":  "銀行ギンコウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "4",
+        "example":  "I need to go to the bank to open a new savings account.",
+        "exampleJa":  "私は新しい普通預金口座を開くために銀行へ行く必要があります。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  365,
+        "word":  "border",
+        "meaning":  "境界(線)、国境(線)キョウカイセンコッキョウセン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "4",
+        "example":  "The river forms a natural border between the two countries.",
+        "exampleJa":  "その川は二つの国の間に自然の国境を作っています。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  366,
+        "word":  "bottom",
+        "meaning":  "底、下部ソコカブ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "4",
+        "example":  "Please write your name at the bottom of the first page.",
+        "exampleJa":  "最初のページの下部にあなたの名前を書いてください。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  367,
+        "word":  "classmate",
+        "meaning":  "級友、クラスメートキュウユウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "4",
+        "example":  "My classmate helped me understand the math problem after school.",
+        "exampleJa":  "私のクラスメートは放課後、私がその数学の問題を理解するのを助けてくれました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  368,
+        "word":  "continent",
+        "meaning":  "大陸タイリク",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "4",
+        "example":  "Africa is a large continent with many different languages, cultures, and climates.",
+        "exampleJa":  "アフリカは、多くの異なる言語、文化、気候を持つ大きな大陸です。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  369,
+        "word":  "cost",
+        "meaning":  "費用、代価ヒヨウダイカ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "4",
+        "example":  "The cost of living is rising, so many families try to save money.",
+        "exampleJa":  "生活費が上がっているので、多くの家庭はお金を節約しようとしています。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  370,
+        "word":  "custom",
+        "meaning":  "(社会的・文化的)習慣、ならわしシャカイテキブンカテキシュウカン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "4",
+        "example":  "It is a local custom to clean the streets together before the festival.",
+        "exampleJa":  "祭りの前に一緒に通りを掃除することは、地域の習慣です。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  371,
+        "word":  "exchange",
+        "meaning":  "為替；交換カワセコウカン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "4",
+        "example":  "The exchange of ideas between students from different countries was very valuable.",
+        "exampleJa":  "異なる国の生徒たちの間での意見交換は、とても価値がありました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  372,
+        "word":  "experiment",
+        "meaning":  "実験ジッケン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "4",
+        "example":  "The science experiment showed how plants grow differently in light and darkness.",
+        "exampleJa":  "その理科の実験は、植物が光と暗闇でどのように異なって成長するかを示しました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  373,
+        "word":  "expression",
+        "meaning":  "表情；表現ヒョウジョウヒョウゲン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "4",
+        "example":  "Her facial expression changed when she heard the surprising news.",
+        "exampleJa":  "驚くような知らせを聞いたとき、彼女の表情が変わりました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  374,
+        "word":  "force",
+        "meaning":  "効力、力コウリョクチカラ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "4",
+        "example":  "The force of the wind was strong enough to break several branches.",
+        "exampleJa":  "風の力は、いくつかの枝を折るほど強いものでした。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  375,
+        "word":  "gun",
+        "meaning":  "銃ジュウ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "4",
+        "example":  "The police officer kept his gun locked safely and used it only in emergencies.",
+        "exampleJa":  "その警察官は銃を安全に施錠して保管し、緊急時にだけ使いました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  376,
+        "word":  "hall",
+        "meaning":  "玄関、ホール；会館ゲンカンカイカン",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "4",
+        "example":  "Students gathered in the hall to listen to the principal’s announcement.",
+        "exampleJa":  "生徒たちは校長先生のお知らせを聞くためにホールに集まりました。",
+        "attemptCount":  0,
+        "correctCount":  0,
+        "wrongCount":  0
+    },
+    {
+        "id":  377,
+        "word":  "happiness",
+        "meaning":  "幸福、幸せコウフクシアワ",
+        "partOfSpeech":  "名詞メイシ",
+        "level":  "4",
+        "example":  "Many people believe that happiness comes from good relationships, not only money.",
+        "exampleJa":  "多くの人は、幸福はお金だけでなくよい人間関係から生まれると考えています。",
         "attemptCount":  0,
         "correctCount":  0,
         "wrongCount":  0

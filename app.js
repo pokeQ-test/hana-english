@@ -376,6 +376,7 @@ function showFeedback(isCorrect){
     setText("feedbackPart", `${currentWord.partOfSpeech}${currentWord.level ? ` / Lv.${currentWord.level}` : ""}`);
     setText("feedbackExample", currentWord.example || "例文はありません。");
     setText("feedbackExampleJa", currentWord.exampleJa || "");
+    document.getElementById("exampleSoundButton").disabled = !currentWord.example;
 
     panel.hidden = false;
     panel.scrollIntoView({ behavior:"smooth", block:"nearest" });
@@ -428,14 +429,22 @@ function confirmExitQuiz(){
 }
 
 function speakCurrentWord(){
-    const word = currentWord ? currentWord.word : "";
-    if(!word || !("speechSynthesis" in window)){
+    speakEnglish(currentWord ? currentWord.word : "", 0.9);
+}
+
+function speakCurrentExample(){
+    speakEnglish(currentWord ? currentWord.example : "", 0.86);
+}
+
+function speakEnglish(text, rate){
+    const speechText = String(text || "").trim();
+    if(!speechText || !("speechSynthesis" in window)){
         return;
     }
     window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(word);
+    const utterance = new SpeechSynthesisUtterance(speechText);
     utterance.lang = "en-US";
-    utterance.rate = 0.9;
+    utterance.rate = rate;
     window.speechSynthesis.speak(utterance);
 }
 

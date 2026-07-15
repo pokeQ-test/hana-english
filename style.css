@@ -63,6 +63,8 @@ button:disabled{
 
 select,
 input[type="text"],
+input[type="email"],
+input[type="password"],
 input[type="number"]{
     width:100%;
     min-height:50px;
@@ -98,6 +100,28 @@ input:focus{
     border-radius:22px;
     background:linear-gradient(135deg,#ffffff 0%,#e8f7f2 52%,#fff7df 100%);
     box-shadow:var(--shadow);
+}
+
+.header-user-name{
+    margin:7px 0 0;
+    color:var(--primary-dark);
+    font-size:14px;
+    font-weight:800;
+}
+
+.header-actions{
+    display:grid;
+    flex:0 0 auto;
+    gap:8px;
+}
+
+.header-actions .small-button{
+    min-width:76px;
+}
+
+.logout-button{
+    color:var(--muted);
+    font-size:13px;
 }
 
 .eyebrow{
@@ -137,6 +161,95 @@ h3{
 
 .active-screen{
     display:block;
+}
+
+.auth-panel{
+    padding:20px 18px;
+    border:1px solid rgba(255,255,255,.9);
+    border-radius:18px;
+    background:var(--surface);
+    box-shadow:var(--shadow);
+}
+
+.auth-description{
+    margin:0 0 16px;
+    color:var(--muted);
+    line-height:1.7;
+}
+
+.auth-tabs{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:6px;
+    padding:5px;
+    border-radius:14px;
+    background:#e8eef5;
+}
+
+.auth-tabs button{
+    min-height:46px;
+    border-radius:10px;
+    color:var(--muted);
+    background:transparent;
+    box-shadow:none;
+}
+
+.auth-tabs button.selected{
+    color:var(--primary-dark);
+    background:white;
+    box-shadow:0 3px 10px rgba(34,48,68,.1);
+}
+
+.auth-tabs button:active{
+    transform:none;
+    box-shadow:none;
+}
+
+.auth-form{
+    display:grid;
+    margin-top:16px;
+}
+
+.auth-form .field-label{
+    margin-top:10px;
+}
+
+.auth-form > button{
+    margin-top:18px;
+}
+
+.text-button{
+    min-height:44px;
+    margin-top:10px;
+    color:var(--primary-dark);
+    background:transparent;
+    box-shadow:none;
+    font-size:14px;
+}
+
+.text-button:active{
+    transform:none;
+    box-shadow:none;
+}
+
+.auth-message{
+    margin:10px 0 0;
+    text-align:center;
+}
+
+.auth-message.success{
+    color:var(--good);
+}
+
+.setup-notice{
+    margin-top:12px;
+    padding:12px;
+    border:1px solid #efd38d;
+    border-radius:12px;
+    color:#775311;
+    background:#fff8e5;
+    font-size:14px;
+    line-height:1.6;
 }
 
 .small-button,

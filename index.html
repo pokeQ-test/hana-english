@@ -10,14 +10,53 @@
 <div class="app-shell">
 <header class="app-header">
     <div>
-        <p class="eyebrow">高校英語</p>
+        <p id="headerEyebrow" class="eyebrow">高校英語</p>
         <h1>Hana English</h1>
+        <p id="headerUserName" class="header-user-name" hidden></p>
     </div>
-    <button class="small-button" type="button" onclick="showScreen('listScreen')">一覧</button>
+    <div id="headerActions" class="header-actions" hidden>
+        <button class="small-button" type="button" onclick="showScreen('listScreen')">一覧</button>
+        <button class="small-button logout-button" type="button" onclick="logoutUser()">ログアウト</button>
+    </div>
 </header>
 
 <main>
-    <section id="homeScreen" class="screen active-screen">
+    <section id="authScreen" class="screen active-screen">
+        <article class="auth-panel">
+            <p class="eyebrow">学習記録を保存</p>
+            <h2 id="authTitle">ログイン</h2>
+            <p id="authDescription" class="auth-description">続きから学習するためにログインしてください。</p>
+
+            <div id="authTabs" class="auth-tabs" role="tablist" aria-label="ログイン方法">
+                <button type="button" data-auth-mode="login">ログイン</button>
+                <button type="button" data-auth-mode="register">新規登録</button>
+            </div>
+
+            <form id="authForm" class="auth-form">
+                <label id="displayNameField" class="field-label" for="displayNameInput" hidden>表示する名前</label>
+                <input id="displayNameInput" type="text" maxlength="30" autocomplete="name" placeholder="例：はな" hidden>
+
+                <label class="field-label" for="emailInput">メールアドレス（ログインID）</label>
+                <input id="emailInput" type="email" inputmode="email" autocomplete="email" placeholder="name@example.com" required>
+
+                <label class="field-label" for="passwordInput">パスワード</label>
+                <input id="passwordInput" type="password" minlength="8" autocomplete="current-password" placeholder="8文字以上" required>
+
+                <label id="confirmPasswordField" class="field-label" for="confirmPasswordInput" hidden>パスワードをもう一度</label>
+                <input id="confirmPasswordInput" type="password" minlength="8" autocomplete="new-password" placeholder="同じパスワードを入力" hidden>
+
+                <button id="authSubmitButton" type="submit">ログイン</button>
+            </form>
+
+            <button id="resetPasswordButton" class="text-button" type="button">パスワードを忘れた方</button>
+            <p id="authMessage" class="message auth-message" aria-live="polite"></p>
+            <div id="firebaseSetupNotice" class="setup-notice" hidden>
+                Firebaseの接続設定が必要です。READMEの手順に沿って設定してください。
+            </div>
+        </article>
+    </section>
+
+    <section id="homeScreen" class="screen">
         <div id="loadNotice" class="notice" hidden>
             <p>学習データを読み込めませんでした。同じフォルダのJSONファイルを選んでください。</p>
             <input id="jsonFileInput" type="file" accept=".json,application/json">
@@ -180,7 +219,9 @@
 </main>
 </div>
 
-<script src="app.js"></script>
+<script src="firebase-config.js?v=20260715-auth"></script>
+<script type="module" src="firebase-service.js?v=20260715-auth"></script>
+<script src="app.js?v=20260715-auth"></script>
 </body>
 </html>
 <!-- retry deploy -->

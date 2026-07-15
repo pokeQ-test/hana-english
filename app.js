@@ -2,6 +2,7 @@ const STORAGE_KEYS = {
     word:"hanaEnglishProgress.v1",
     idiom:"hanaEnglishIdiomProgress.v1"
 };
+const LEGACY_OWNER_KEY = "hanaEnglishLegacyOwnerUid.v1";
 const QUESTION_LIMIT = 10;
 
 const baseData = { word:[], idiom:[] };
@@ -19,8 +20,15 @@ let currentWord = null;
 let currentAnswered = false;
 let sessionCorrect = 0;
 let sessionWrongWords = [];
+let currentUser = null;
+let authMode = "login";
+let dataReady = false;
+let progressReady = false;
+let firebaseReady = false;
+let authSequence = 0;
 
 const screens = [
+    "authScreen",
     "homeScreen",
     "modeScreen",
     "quizScreen",
@@ -46,8 +54,20 @@ const studyTypeLabels = {
     idiom:{ short:"熟語", full:"英熟語" }
 };
 
+window.addEventListener("hana-firebase-ready", event => {
+    firebaseReady = Boolean(event.detail?.configured);
+    document.getElementById("firebaseSetupNotice").hidden = firebaseReady;
+    setAuthFormEnabled(firebaseReady);
+});
+
+window.addEventListener("hana-auth-state", event => {
+    handleAuthState(event.detail?.user || null);
+});
+
 document.addEventListener("DOMContentLoaded", () => {
     bindEvents();
+    selectAuthMode("login");
+    setAuthFormEnabled(firebaseReady);
     loadStudyData();
 });
 
@@ -69,6 +89,8 @@ async function loadStudyData(){
         selectStudyType(firstAvailableType);
     }
 
+    dataReady = true;
+    enterAppWhenReady();
     document.getElementById("loadNotice").hidden = results.every(result => result.status === "fulfilled");
 }
 
@@ -81,6 +103,13 @@ async function fetchJson(path){
 }
 
 function bindEvents(){
+    document.querySelectorAll("[data-auth-mode]").forEach(button => {
+        button.addEventListener("click", () => selectAuthMode(button.dataset.authMode));
+    });
+
+    document.getElementById("authForm").addEventListener("submit", submitAuthForm);
+    document.getElementById("resetPasswordButton").addEventListener("click", resetPassword);
+
     document.querySelectorAll("#modeButtons button").forEach(button => {
         button.addEventListener("click", () => selectMode(button.dataset.mode));
     });
@@ -119,6 +148,238 @@ function bindEvents(){
     });
 
     selectMode("all");
+}
+
+function selectAuthMode(mode){
+    authMode = mode;
+    const registering = mode === "register";
+
+    document.querySelectorAll("[data-auth-mode]").forEach(button => {
+        button.classList.toggle("selected", button.dataset.authMode === mode);
+    });
+
+    document.getElementById("displayNameField").hidden = !registering;
+    document.getElementById("displayNameInput").hidden = !registering;
+    document.getElementById("displayNameInput").required = registering;
+    document.getElementById("confirmPasswordField").hidden = !registering;
+    document.getElementById("confirmPasswordInput").hidden = !registering;
+    document.getElementById("confirmPasswordInput").required = registering;
+    document.getElementById("passwordInput").autocomplete = registering ? "new-password" : "current-password";
+    document.getElementById("resetPasswordButton").hidden = registering;
+
+    setText("authTitle", registering ? "新規登録" : "ログイン");
+    setText("authDescription", registering
+        ? "名前とログイン情報を登録して、学習を始めましょう。"
+        : "続きから学習するためにログインしてください。");
+    setText("authSubmitButton", registering ? "登録して始める" : "ログイン");
+    setAuthMessage("");
+}
+
+function setAuthFormEnabled(enabled){
+    document.querySelectorAll("#authForm input, #authForm button, #resetPasswordButton").forEach(element => {
+        element.disabled = !enabled;
+    });
+}
+
+async function submitAuthForm(event){
+    event.preventDefault();
+    if(!firebaseReady || !window.hanaFirebase){
+        setAuthMessage("Firebaseの接続設定を確認してください。");
+        return;
+    }
+
+    const email = document.getElementById("emailInput").value.trim();
+    const password = document.getElementById("passwordInput").value;
+    const displayName = document.getElementById("displayNameInput").value.trim();
+    const confirmPassword = document.getElementById("confirmPasswordInput").value;
+
+    if(authMode === "register"){
+        if(!displayName){
+            setAuthMessage("表示する名前を入力してください。");
+            return;
+        }
+        if(password.length < 8){
+            setAuthMessage("パスワードは8文字以上にしてください。");
+            return;
+        }
+        if(password !== confirmPassword){
+            setAuthMessage("2つのパスワードが一致しません。");
+            return;
+        }
+    }
+
+    const submitButton = document.getElementById("authSubmitButton");
+    submitButton.disabled = true;
+    setAuthMessage(authMode === "register" ? "アカウントを作成しています。" : "ログインしています。", true);
+
+    try{
+        if(authMode === "register"){
+            await window.hanaFirebase.register(displayName, email, password);
+        }else{
+            await window.hanaFirebase.signIn(email, password);
+        }
+        document.getElementById("passwordInput").value = "";
+        document.getElementById("confirmPasswordInput").value = "";
+    }catch(error){
+        setAuthMessage(getAuthErrorMessage(error));
+        submitButton.disabled = false;
+    }
+}
+
+async function resetPassword(){
+    const email = document.getElementById("emailInput").value.trim();
+    if(!email){
+        setAuthMessage("メールアドレスを入力してください。");
+        return;
+    }
+
+    try{
+        await window.hanaFirebase.resetPassword(email);
+        setAuthMessage("パスワード再設定用のメールを送信しました。", true);
+    }catch(error){
+        setAuthMessage(getAuthErrorMessage(error));
+    }
+}
+
+async function logoutUser(){
+    if(!window.hanaFirebase){
+        return;
+    }
+    await window.hanaFirebase.signOut();
+}
+
+async function handleAuthState(user){
+    const sequence = ++authSequence;
+    currentUser = user;
+    progressReady = false;
+
+    if(!user){
+        progressByType.word = {};
+        progressByType.idiom = {};
+        progressMap = {};
+        mergeProgress();
+        updateAuthenticatedHeader();
+        showScreen("authScreen");
+        setAuthFormEnabled(firebaseReady);
+        return;
+    }
+
+    updateAuthenticatedHeader();
+    showScreen("authScreen");
+    setAuthMessage("学習履歴を読み込んでいます。", true);
+
+    try{
+        await synchronizeUserProgress(user.uid);
+    }catch(error){
+        console.warn("Cloud progress sync failed", error);
+        loadUserLocalProgress(user.uid);
+    }
+
+    if(sequence !== authSequence){
+        return;
+    }
+
+    progressReady = true;
+    enterAppWhenReady();
+}
+
+function updateAuthenticatedHeader(){
+    const signedIn = Boolean(currentUser);
+    document.getElementById("headerActions").hidden = !signedIn;
+    document.getElementById("headerUserName").hidden = !signedIn;
+    setText("headerEyebrow", signedIn ? "ログイン中" : "高校英語");
+    setText("headerUserName", signedIn ? `${currentUser.displayName || "学習者"}さん` : "");
+}
+
+function enterAppWhenReady(){
+    if(!currentUser || !dataReady || !progressReady){
+        return;
+    }
+    activateDataset(currentStudyType);
+    setAuthMessage("");
+    showScreen("homeScreen");
+}
+
+async function synchronizeUserProgress(uid){
+    const legacyOwner = localStorage.getItem(LEGACY_OWNER_KEY);
+    const canImportLegacy = !legacyOwner || legacyOwner === uid;
+    if(!legacyOwner){
+        localStorage.setItem(LEGACY_OWNER_KEY, uid);
+    }
+
+    for(const type of ["word", "idiom"]){
+        const legacy = canImportLegacy ? loadProgressFromStorage(STORAGE_KEYS[type]) : {};
+        const local = loadProgressFromStorage(getUserStorageKey(type, uid));
+        const cloud = await window.hanaFirebase.loadProgress(type);
+        const merged = mergeProgressSources(legacy, local, cloud);
+
+        progressByType[type] = merged;
+        saveProgressToStorage(getUserStorageKey(type, uid), merged);
+        await window.hanaFirebase.saveProgress(type, merged);
+    }
+}
+
+function loadUserLocalProgress(uid){
+    for(const type of ["word", "idiom"]){
+        progressByType[type] = loadProgressFromStorage(getUserStorageKey(type, uid));
+    }
+}
+
+function mergeProgressSources(...sources){
+    const merged = {};
+    sources.forEach(source => {
+        Object.entries(source || {}).forEach(([id, record]) => {
+            const previous = merged[id] || {};
+            const previousDate = previous.lastAnsweredAt || "";
+            const nextDate = record.lastAnsweredAt || "";
+            const latest = nextDate >= previousDate ? record : previous;
+            const correctCount = Math.max(Number(previous.correctCount || 0), Number(record.correctCount || 0));
+            const wrongCount = Math.max(Number(previous.wrongCount || 0), Number(record.wrongCount || 0));
+
+            merged[id] = {
+                attemptCount:Math.max(Number(previous.attemptCount || 0), Number(record.attemptCount || 0), correctCount + wrongCount),
+                correctCount,
+                wrongCount,
+                lastAnsweredAt:latest.lastAnsweredAt || "",
+                lastResult:latest.lastResult || ""
+            };
+        });
+    });
+    return merged;
+}
+
+function getUserStorageKey(type, uid = currentUser?.uid){
+    return `${STORAGE_KEYS[type]}.user.${uid}`;
+}
+
+function loadProgressFromStorage(key){
+    try{
+        return JSON.parse(localStorage.getItem(key)) || {};
+    }catch(error){
+        return {};
+    }
+}
+
+function saveProgressToStorage(key, value){
+    localStorage.setItem(key, JSON.stringify(value));
+}
+
+function setAuthMessage(message, success = false){
+    const element = document.getElementById("authMessage");
+    element.textContent = message;
+    element.classList.toggle("success", success);
+}
+
+function getAuthErrorMessage(error){
+    const messages = {
+        "auth/email-already-in-use":"このメールアドレスはすでに登録されています。",
+        "auth/invalid-credential":"メールアドレスまたはパスワードが違います。",
+        "auth/invalid-email":"メールアドレスの形式を確認してください。",
+        "auth/too-many-requests":"試行回数が多いため、時間をおいて再度お試しください。",
+        "auth/weak-password":"もう少し強いパスワードを設定してください。",
+        "auth/network-request-failed":"通信できませんでした。ネット接続を確認してください。"
+    };
+    return messages[error?.code] || "処理できませんでした。時間をおいて再度お試しください。";
 }
 
 function cleanStudyText(value){
@@ -160,16 +421,20 @@ function activateDataset(type){
 }
 
 function loadProgress(type){
-    try{
-        return JSON.parse(localStorage.getItem(STORAGE_KEYS[type])) || {};
-    }catch(error){
-        return {};
-    }
+    const key = currentUser ? getUserStorageKey(type) : STORAGE_KEYS[type];
+    return loadProgressFromStorage(key);
 }
 
 function saveProgress(){
     progressByType[currentStudyType] = progressMap;
-    localStorage.setItem(STORAGE_KEYS[currentStudyType], JSON.stringify(progressMap));
+    if(!currentUser){
+        return;
+    }
+
+    saveProgressToStorage(getUserStorageKey(currentStudyType), progressMap);
+    window.hanaFirebase?.saveProgress(currentStudyType, progressMap).catch(error => {
+        console.warn("Cloud progress save failed", error);
+    });
 }
 
 function mergeProgress(){
@@ -224,6 +489,10 @@ function updateStudyTypeUi(){
 }
 
 function showScreen(screenId){
+    if(screenId !== "authScreen" && !currentUser){
+        screenId = "authScreen";
+    }
+
     screens.forEach(id => {
         document.getElementById(id).classList.toggle("active-screen", id === screenId);
     });

@@ -424,6 +424,39 @@ h3{
     font-weight:800;
 }
 
+.study-type-switch{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:8px;
+    margin-bottom:14px;
+    padding:5px;
+    border:1px solid var(--line);
+    border-radius:16px;
+    background:#e8eef5;
+}
+
+.study-type-switch button{
+    min-height:50px;
+    padding:8px 10px;
+    border:2px solid transparent;
+    border-radius:12px;
+    color:var(--muted);
+    background:transparent;
+    box-shadow:none;
+}
+
+.study-type-switch button.selected{
+    border-color:#b9ddd6;
+    color:var(--primary-dark);
+    background:white;
+    box-shadow:0 3px 10px rgba(34,48,68,.1);
+}
+
+.study-type-switch button:active{
+    transform:none;
+    box-shadow:none;
+}
+
 .example-sound-button{
     width:auto;
     min-width:104px;

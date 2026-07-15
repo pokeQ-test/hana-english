@@ -10,7 +10,7 @@
 <div class="app-shell">
 <header class="app-header">
     <div>
-        <p class="eyebrow">高校英単語</p>
+        <p class="eyebrow">高校英語</p>
         <h1>Hana English</h1>
     </div>
     <button class="small-button" type="button" onclick="showScreen('listScreen')">一覧</button>
@@ -19,8 +19,13 @@
 <main>
     <section id="homeScreen" class="screen active-screen">
         <div id="loadNotice" class="notice" hidden>
-            <p>words.json を読み込めませんでした。同じフォルダの words.json を選んでください。</p>
+            <p>学習データを読み込めませんでした。同じフォルダのJSONファイルを選んでください。</p>
             <input id="jsonFileInput" type="file" accept=".json,application/json">
+        </div>
+
+        <div class="study-type-switch" role="group" aria-label="学習する内容">
+            <button type="button" data-study-type="word">英単語</button>
+            <button type="button" data-study-type="idiom">英熟語</button>
         </div>
 
         <section class="summary-panel">
@@ -47,14 +52,14 @@
         </section>
 
         <section class="daily-panel">
-            <h2>今日の10問</h2>
-            <p>全体からランダムに10問出します。迷ったらここから始めましょう。</p>
+            <h2 id="dailyTitle">今日の英単語10問</h2>
+            <p id="dailyDescription">英単語全体からランダムに10問出します。迷ったらここから始めましょう。</p>
             <button type="button" onclick="quickStart()">今日の問題を始める</button>
         </section>
 
         <div class="home-actions">
             <button type="button" onclick="showScreen('modeScreen')">モードを選ぶ</button>
-            <button class="secondary-button" type="button" onclick="showScreen('listScreen')">単語一覧を見る</button>
+            <button id="openListButton" class="secondary-button" type="button" onclick="showScreen('listScreen')">英単語一覧を見る</button>
         </div>
     </section>
 
@@ -62,6 +67,12 @@
         <div class="section-title-row">
             <button class="ghost-button" type="button" onclick="showScreen('homeScreen')">戻る</button>
             <h2>モード選択</h2>
+        </div>
+
+        <label class="field-label">学習する内容</label>
+        <div class="study-type-switch" role="group" aria-label="学習する内容">
+            <button type="button" data-study-type="word">英単語</button>
+            <button type="button" data-study-type="idiom">英熟語</button>
         </div>
 
         <label class="field-label">出題範囲</label>
@@ -90,7 +101,7 @@
         <label class="field-label" for="questionType">問題形式</label>
         <select id="questionType">
             <option value="choice">4択問題</option>
-            <option value="spelling">単語訳からスペルを書く</option>
+            <option id="spellingOption" value="spelling">単語訳からスペルを書く</option>
         </select>
 
         <button class="bottom-main-button" type="button" onclick="startQuizFromSettings()">この条件で始める</button>
@@ -119,7 +130,7 @@
         <section id="feedbackPanel" class="feedback-panel" hidden>
             <p id="feedbackTitle" class="feedback-title"></p>
             <dl class="answer-detail">
-                <dt>単語</dt><dd id="feedbackWord"></dd>
+                <dt id="feedbackItemLabel">単語</dt><dd id="feedbackWord"></dd>
                 <dt>意味</dt><dd id="feedbackMeaning"></dd>
                 <dt>品詞</dt><dd id="feedbackPart"></dd>
             </dl>
@@ -146,7 +157,7 @@
             </div>
         </div>
         <section>
-            <h3>間違えた単語</h3>
+            <h3 id="wrongHeading">間違えた単語</h3>
             <div id="wrongList" class="wrong-list"></div>
         </section>
         <button type="button" onclick="retryQuiz()">もう一度同じ条件で挑戦</button>
@@ -156,7 +167,7 @@
     <section id="listScreen" class="screen">
         <div class="section-title-row">
             <button class="ghost-button" type="button" onclick="showScreen('homeScreen')">戻る</button>
-            <h2>単語一覧</h2>
+            <h2 id="listHeading">英単語一覧</h2>
         </div>
         <label class="field-label" for="listPartFilter">品詞で絞り込み</label>
         <select id="listPartFilter"></select>

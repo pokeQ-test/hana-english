@@ -1,9 +1,16 @@
-const STORAGE_KEY = "hanaEnglishProgress.v1";
+const STORAGE_KEYS = {
+    word:"hanaEnglishProgress.v1",
+    idiom:"hanaEnglishIdiomProgress.v1"
+};
 const QUESTION_LIMIT = 10;
 
+const baseData = { word:[], idiom:[] };
+const dataByType = { word:[], idiom:[] };
+const progressByType = { word:{}, idiom:{} };
 let baseWords = [];
 let words = [];
 let progressMap = {};
+let currentStudyType = "word";
 let currentMode = "all";
 let lastQuizSettings = null;
 let quizQueue = [];
@@ -34,27 +41,52 @@ const questionLabels = {
     spelling:"単語訳からスペルを書く"
 };
 
+const studyTypeLabels = {
+    word:{ short:"単語", full:"英単語" },
+    idiom:{ short:"熟語", full:"英熟語" }
+};
+
 document.addEventListener("DOMContentLoaded", () => {
     bindEvents();
-    loadWords();
+    loadStudyData();
 });
 
-async function loadWords(){
-    try{
-        const response = await fetch("words.json", { cache:"no-store" });
-        if(!response.ok){
-            throw new Error("words.json not found");
-        }
-        const data = await response.json();
-        initializeWords(data);
-    }catch(error){
-        document.getElementById("loadNotice").hidden = false;
+async function loadStudyData(){
+    const results = await Promise.allSettled([
+        fetchJson("words.json"),
+        fetchJson("idiom.json")
+    ]);
+
+    if(results[0].status === "fulfilled"){
+        initializeDataset("word", results[0].value);
     }
+    if(results[1].status === "fulfilled"){
+        initializeDataset("idiom", results[1].value);
+    }
+
+    const firstAvailableType = baseData.word.length ? "word" : "idiom";
+    if(baseData[firstAvailableType].length){
+        selectStudyType(firstAvailableType);
+    }
+
+    document.getElementById("loadNotice").hidden = results.every(result => result.status === "fulfilled");
+}
+
+async function fetchJson(path){
+    const response = await fetch(path, { cache:"no-store" });
+    if(!response.ok){
+        throw new Error(`${path} not found`);
+    }
+    return response.json();
 }
 
 function bindEvents(){
     document.querySelectorAll("#modeButtons button").forEach(button => {
         button.addEventListener("click", () => selectMode(button.dataset.mode));
+    });
+
+    document.querySelectorAll("[data-study-type]").forEach(button => {
+        button.addEventListener("click", () => selectStudyType(button.dataset.studyType));
     });
 
     document.getElementById("jsonFileInput").addEventListener("change", event => {
@@ -65,10 +97,12 @@ function bindEvents(){
         const reader = new FileReader();
         reader.onload = () => {
             try{
-                initializeWords(JSON.parse(reader.result));
+                const type = file.name.toLowerCase().includes("idiom") ? "idiom" : currentStudyType;
+                initializeDataset(type, JSON.parse(reader.result));
+                selectStudyType(type);
                 document.getElementById("loadNotice").hidden = true;
             }catch(error){
-                alert("words.json を読み込めませんでした。");
+                alert("JSONファイルを読み込めませんでした。");
             }
         };
         reader.readAsText(file, "utf-8");
@@ -95,10 +129,10 @@ function cleanStudyText(value){
         return /[一-龯々]/.test(head) ? head.trim() : match;
     });
 }
-function initializeWords(data){
-    baseWords = data.map((item, index) => ({
+function initializeDataset(type, data){
+    baseData[type] = data.map((item, index) => ({
         id:Number(item.id || item.number || index + 1),
-        word:String(item.word || "").trim(),
+        word:String(item.word || item.idiom || "").trim(),
         meaning:cleanStudyText(item.meaning || ""),
         partOfSpeech:cleanStudyText(item.partOfSpeech || item.part || "その他") || "その他",
         level:String(item.level || "").trim(),
@@ -109,23 +143,33 @@ function initializeWords(data){
         wrongCount:Number(item.wrongCount || 0)
     })).filter(item => item.word && item.meaning);
 
-    progressMap = loadProgress();
+    progressByType[type] = loadProgress(type);
+    if(type !== currentStudyType || !baseData[type].length){
+        return;
+    }
+    activateDataset(type);
+}
+
+function activateDataset(type){
+    baseWords = baseData[type];
+    progressMap = progressByType[type];
     mergeProgress();
     setupPartSelects();
     updateHomeStats();
     renderWordList();
 }
 
-function loadProgress(){
+function loadProgress(type){
     try{
-        return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+        return JSON.parse(localStorage.getItem(STORAGE_KEYS[type])) || {};
     }catch(error){
         return {};
     }
 }
 
 function saveProgress(){
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(progressMap));
+    progressByType[currentStudyType] = progressMap;
+    localStorage.setItem(STORAGE_KEYS[currentStudyType], JSON.stringify(progressMap));
 }
 
 function mergeProgress(){
@@ -148,6 +192,35 @@ function setupPartSelects(){
 
     document.getElementById("partSelect").innerHTML = optionHtml;
     document.getElementById("listPartFilter").innerHTML = `<option value="all">すべて</option>${optionHtml}`;
+}
+
+function selectStudyType(type){
+    if(!baseData[type].length){
+        setText("modeMessage", `${studyTypeLabels[type].full}のデータを読み込めませんでした。`);
+        return;
+    }
+
+    currentStudyType = type;
+    activateDataset(type);
+    updateStudyTypeUi();
+    selectMode(currentMode);
+}
+
+function updateStudyTypeUi(){
+    const label = studyTypeLabels[currentStudyType];
+    document.querySelectorAll("[data-study-type]").forEach(button => {
+        const selected = button.dataset.studyType === currentStudyType;
+        button.classList.toggle("selected", selected);
+        button.setAttribute("aria-pressed", String(selected));
+    });
+
+    setText("dailyTitle", `今日の${label.full}10問`);
+    setText("dailyDescription", `${label.full}全体からランダムに10問出します。迷ったらここから始めましょう。`);
+    setText("openListButton", `${label.full}一覧を見る`);
+    setText("spellingOption", `${label.short}訳から${label.short}を書く`);
+    setText("feedbackItemLabel", label.short);
+    setText("wrongHeading", `間違えた${label.short}`);
+    setText("listHeading", `${label.full}一覧`);
 }
 
 function showScreen(screenId){
@@ -194,11 +267,12 @@ function selectMode(mode){
 }
 
 function quickStart(){
-    startQuiz({ mode:"all", questionType:"choice" });
+    startQuiz({ studyType:currentStudyType, mode:"all", questionType:"choice" });
 }
 
 function startQuizFromSettings(){
     const settings = {
+        studyType:currentStudyType,
         mode:currentMode,
         questionType:document.getElementById("questionType").value,
         part:document.getElementById("partSelect").value,
@@ -209,11 +283,14 @@ function startQuizFromSettings(){
 }
 
 function startQuiz(settings){
+    if(settings.studyType && settings.studyType !== currentStudyType){
+        selectStudyType(settings.studyType);
+    }
     mergeProgress();
 
     const candidates = getCandidates(settings);
     if(candidates.length === 0){
-        setText("modeMessage", "この条件で出題できる単語がありません。");
+        setText("modeMessage", `この条件で出題できる${studyTypeLabels[currentStudyType].short}がありません。`);
         return;
     }
 
@@ -263,7 +340,10 @@ function renderQuestion(){
     currentAnswered = false;
 
     setText("quizProgress", `${currentIndex + 1} / ${quizQueue.length}`);
-    setText("questionKind", questionLabels[lastQuizSettings.questionType]);
+    const label = studyTypeLabels[currentStudyType];
+    setText("questionKind", lastQuizSettings.questionType === "choice"
+        ? questionLabels.choice
+        : `${label.short}訳から${label.short}を書く`);
 
     const isSpellingQuestion = lastQuizSettings.questionType === "spelling";
     setText("questionText", isSpellingQuestion ? currentWord.meaning : currentWord.word);
@@ -277,7 +357,7 @@ function renderQuestion(){
         renderChoices();
     }else{
         document.getElementById("textAnswerArea").hidden = false;
-        document.getElementById("answerInput").placeholder = "英単語のスペルを入力";
+        document.getElementById("answerInput").placeholder = `${label.full}を入力`;
         setTimeout(() => document.getElementById("answerInput").focus(), 100);
     }
 }
@@ -296,15 +376,74 @@ function renderChoices(){
 }
 
 function createChoices(correctWord){
-    const wrongMeanings = shuffle(words
+    const uniqueCandidates = [...new Map(words
         .filter(word => word.id !== correctWord.id && word.meaning !== correctWord.meaning)
-        .map(word => word.meaning)
-    ).slice(0, 3);
+        .map(word => [word.meaning, word])
+    ).values()];
+
+    // 近いレベル・表現を優先しつつ乱数を加え、誤答が固定されないようにします。
+    const rankedCandidates = uniqueCandidates
+        .map(word => ({
+            word,
+            score:distractorScore(correctWord, word) + Math.random() * 6
+        }))
+        .sort((a,b) => b.score - a.score)
+        .slice(0, Math.min(18, uniqueCandidates.length))
+        .map(item => item.word);
+
+    const wrongMeanings = shuffle(rankedCandidates).slice(0, 3).map(word => word.meaning);
 
     return shuffle([
         { text:correctWord.meaning, correct:true },
         ...wrongMeanings.map(text => ({ text, correct:false }))
     ]);
+}
+
+function distractorScore(correctWord, candidate){
+    let score = 0;
+    if(correctWord.level && correctWord.level === candidate.level){
+        score += 6;
+    }
+    if(correctWord.partOfSpeech !== "なし" && correctWord.partOfSpeech === candidate.partOfSpeech){
+        score += 3;
+    }
+
+    const correctMeaning = normalizeJapanese(correctWord.meaning);
+    const candidateMeaning = normalizeJapanese(candidate.meaning);
+    const maxLength = Math.max(correctMeaning.length, candidateMeaning.length, 1);
+    score += (1 - Math.abs(correctMeaning.length - candidateMeaning.length) / maxLength) * 4;
+    score += ngramSimilarity(correctMeaning, candidateMeaning) * 8;
+
+    const correctEnglish = normalizeEnglishWords(correctWord.word);
+    const candidateEnglish = normalizeEnglishWords(candidate.word);
+    if(correctEnglish.length === candidateEnglish.length){
+        score += 2;
+    }
+    if(correctEnglish[0] && correctEnglish[0] === candidateEnglish[0]){
+        score += 3;
+    }
+    return score;
+}
+
+function ngramSimilarity(left, right){
+    const leftGrams = new Set(makeNgrams(left));
+    const rightGrams = new Set(makeNgrams(right));
+    if(!leftGrams.size || !rightGrams.size){
+        return 0;
+    }
+    const overlap = [...leftGrams].filter(gram => rightGrams.has(gram)).length;
+    return overlap / Math.max(leftGrams.size, rightGrams.size);
+}
+
+function makeNgrams(value){
+    if(value.length < 2){
+        return value ? [value] : [];
+    }
+    return Array.from({ length:value.length - 1 }, (_, index) => value.slice(index, index + 2));
+}
+
+function normalizeEnglishWords(value){
+    return String(value).toLowerCase().match(/[a-z]+/g) || [];
 }
 
 function submitChoice(button){
